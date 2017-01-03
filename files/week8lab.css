@@ -1,0 +1,213 @@
+html
+{
+	background-color:#fff;
+}
+
+body
+{
+	font-family:"arial","helvetica";
+	font-size:80%;
+	color:#423;
+	background-color:#ffffe4;
+	border:#423 double;
+	width:700px;
+	padding:3em;
+	margin:0 auto;
+	margin-top:1em;
+	margin-bottom:1em;
+	-moz-box-shadow:0 0.3em 1em #000;
+	-webkit-box-shadow:0 0.3em 1em #000;
+	box-shadow:0 0.3em 1em #000000;
+	
+}
+
+p
+{
+	font-family:"arial";
+}
+
+h1
+{
+	text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color:black;
+}
+
+.subtitle
+{
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+img.subtitle
+{
+	display:block;
+	margin-bottom:2em;
+}
+
+img.logo
+{
+	display:block;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-bottom:2em;
+	border:0px;
+	padding:0px;
+}
+
+.footer
+{
+	font-size:0.8em;
+}
+
+#bottom_rule
+{
+	border-bottom:1px solid #423;
+	padding-top:1em;
+}
+
+table
+{
+	border-spacing:0;
+	margin:0;
+	text-indent:0;
+	border:0;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+table td
+{
+	border:2px outset #E0D6CC;
+	padding:0.4em;
+	background-color:#fffff1;
+}
+
+table th
+{
+	border: 2px outset #E0D6CC;
+	padding:0.4em;
+	background-color:#fffff1;
+	font-weight: bold;
+}
+
+tr.break td
+{
+	background-color:#dfdfdf;
+	font-size:50%;
+}
+
+table.week_by_week td:first-child
+{
+	text-align:center;
+}
+
+a:link,a:visited,a:active
+{ 
+	color: #f04;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #f04;
+	text-decoration: underline;
+}
+
+h1 a:link,h1 a:visited,h1 a:active
+{ 
+	color: #000;
+	text-decoration: none;
+}
+
+h1 a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+h2 a:link,h2 a:visited,h2 a:active
+{ 
+	color: #000;
+	text-decoration: none;
+}
+
+h2 a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+img
+{
+	border: 1px solid #000;
+	padding: 3px;
+	background-color:#fff;
+}
+
+.example
+{
+	background-color:#fff;
+	border:1px solid #000;
+	padding:0.5em;
+	font-family:"arial";
+	color:#000;
+	width:80%;
+	margin-bottom:0.5em;
+	margin-top:0.5em;
+}
+
+ul.links
+{
+	padding:0;
+	list-style-type: none;
+}
+
+ul.links li
+{
+	padding:0;
+	
+}
+
+.alert
+{
+	background-color:#fff;
+	border:1px solid #000;
+	padding:5px;
+	font-family:"arial";
+	color:#000;
+	width:80%;
+	margin:0 auto;
+	margin-bottom:0.5em;
+	margin-top:0.5em;
+	text-align:center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #423;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #000;
+	text-decoration: none;
+}
