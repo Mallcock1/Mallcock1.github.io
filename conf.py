@@ -137,8 +137,8 @@ NAVIGATION_LINKS = {
         ("/", "Home"),
         (
             (
-                ("/research.html", "Summary"),
-                ("/Research/index.html#publications", "Publications"),
+                ("/Research/", "Summary"),
+                ("/Research/#publications", "Publications"),
                 ("/Research/index.html#conferences", "Conferences"),
                 ("/Research/index.html#teaching", "Teaching"),
             ),
