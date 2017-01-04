@@ -137,16 +137,16 @@ NAVIGATION_LINKS = {
         ("/", "Home"),
         (
             (
-                ("/Research/", "Summary"),
-                ("/Research/#publications", "Publications"),
-                ("/Research/index.html#conferences", "Conferences"),
-                ("/Research/index.html#teaching", "Teaching"),
+                ("/research/", "Summary"),
+                ("/research/#publications", "Publications"),
+                ("/research/index.html#conferences", "Conferences"),
+                ("/research/index.html#teaching", "Teaching"),
             ),
             "Research"
         ),
         ("/cv/index.html", "CV"),
         ("/posts", "Blog"),
-        ("/Contact", "Contact"),
+        ("/contact/", "Contact"),
 #        ("/archive.html", "Archive"),
 #        ("/categories/", "Tags"),
 #        ("/rss.xml", "RSS feed"),
