@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2017-01-03T16:20:00Z</lastmod>
+  <lastmod>2017-01-04T08:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
@@ -44,6 +44,10 @@
  <url>
   <loc>https://example.com/pages/</loc>
   <lastmod>2016-12-13T17:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/posts/</loc>
+  <lastmod>2017-01-04T08:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/another-new-post/</loc>

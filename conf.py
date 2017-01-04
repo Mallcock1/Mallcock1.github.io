@@ -144,7 +144,7 @@ NAVIGATION_LINKS = {
             ),
             "Research"
         ),
-        ("/cv/index.html", "CV"),
+        ("/cv.rst", "CV"),
         ("/posts", "Blog"),
         ("/Contact", "Contact"),
 #        ("/archive.html", "Archive"),
@@ -498,7 +498,7 @@ HIDDEN_AUTHORS = ['Guest']
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-INDEX_PATH = "pages"
+INDEX_PATH = "posts"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
