@@ -139,13 +139,13 @@ NAVIGATION_LINKS = {
             (
                 ("/research/", "Summary"),
                 ("/research/#publications", "Publications"),
-                ("/research/index.html#conferences", "Conferences"),
-                ("/research/index.html#teaching", "Teaching"),
+                ("/research/#conferences", "Conferences"),
+                ("/research/#teaching", "Teaching"),
             ),
             "Research"
         ),
-        ("/cv/index.html", "CV"),
-        ("/posts", "Blog"),
+        ("/cv/", "CV"),
+        ("/posts/", "Blog"),
         ("/contact/", "Contact"),
 #        ("/archive.html", "Archive"),
 #        ("/categories/", "Tags"),
