@@ -38,8 +38,8 @@ The equations that govern the motion of an (ideal) electrically conducting fluid
 \[
 \begin{aligned}
 \frac{D\mathbf{v}}{Dt} &= -\frac{1}{\rho}\nabla{}p - \frac{1}{\mu}\mathbf{B}\times(\nabla\times\mathbf{B}) + \mathbf{g}, \\
-\frac{D\rho}{Dt} &= - \nabla(\rho\mathbf{v}), \\
-\frac{D\mathbf{B}}{Dt} &= \nabla\times(\mathbf{v}\times\mathbf{B}).
+\frac{\partial\rho}{\partial{}t} &= - \nabla\cdot(\rho\mathbf{v}), \\
+\frac{\partial\mathbf{B}}{\partial{}t} &= \nabla\times(\mathbf{v}\times\mathbf{B}).
 \end{aligned}
 \]
 
@@ -62,7 +62,7 @@ Therefore, the dynamics of the Earth's atmosphere are governed by the Navier Sto
 \[
 \begin{aligned}
 \frac{D\mathbf{v}}{Dt} &= -\frac{1}{\rho}\nabla{}p - 2\mathbf{\Omega}\times\mathbf{v} + \mathbf{g}, \\
-\frac{D\rho}{Dt} &= - \nabla(\rho\mathbf{v}).
+\frac{\partial\rho}{\partial{}t} &= - \nabla\cdot(\rho\mathbf{v}).
 \end{aligned}
 \]
 </p>
