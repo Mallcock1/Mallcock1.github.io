@@ -1,28 +1,82 @@
 .. title: Research
 .. slug: research
 .. date: 2016-12-13 17:31:31 UTC
-.. tags: 
+.. tags: mathjax
 .. category: 
 .. link: 
 .. description: 
 .. type: text
 
+<!DOCTYPE html>
 <html>
+
+<script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});
+
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <body>
-<p>My research is in...</p>
+<p>As a member of the Solar Physics and Space Plasma Research Centre at the University of Sheffield I currently research in <a href="/research/#solarMHD">solar magnetohydrodynamic waves</a> 
+but have previously completed research in <a href="/research/#meteorology">meterology</a> and to a lesser extent in <a href="/research/#photovoltaics">photovoltaics</a>. </p>
 
-<h3>Solar Magnetohydrodynamic waves</h3>
+<h3><a name="solarMHD">Solar Magnetohydrodynamic waves</a></h3>
 
-<p>Section 1.1 goes here.</p>
+<figure>
+<img src="/saus_kink_figure.jpg" alt="Quasi-sausage and quasi-kink modes" style="height:300px;" ALIGN="right">
+</figure>
 
-<h3>Meteorology</h3>
+<p>For weather and climate forecasting, the Navier Stokes Equations are solved numerically using the current weather and climate as initial conditions.
+During a visit to Monash University, I worked with the School of Earth and Atmospheric Science to assess and compare the simulation of a heat low in central Australia using the Australian Community Climate and Earth-System Simulator (ACCESS).
+We showed how crucial the lower boundary conditions are to the accurate simulation of this heat low; in particular, how parameters such as the soil moisture content and surface albedo are to the precipitation cycle that is interwoven into the formation of the heat low.
+This research allows scientists to improve their global climate models for better climate predictions in the future. See <a href="/research/#publications">publications</a>.
+</p>
 
-<p>Something here</p>
+<p>
+\[
+\begin{aligned}
+\frac{D\mathbf{v}}{Dt} &= -\frac{1}{\rho}\nabla{}p - \frac{1}{\mu}\mathbf{B}\times(\nabla\times\mathbf{B}) + \mathbf{g}, \\
+\frac{D\rho}{Dt} &= - \nabla(\rho\mathbf{v}), \\
+\frac{D\mathbf{B}}{Dt} &= \nabla\times(\mathbf{v}\times\mathbf{B}).
+\end{aligned}
+\]
+</p>
 
-<h3>Photovoltaics</h3>
+<h3><a name="meteorology">Meteorology</a></h3>
 
-<p>Something here.</p>
+<figure>
+<img src="/heat_low-1.png" alt="Aussie heat low" style="height:300px;" ALIGN="right">
+</figure>
+
+<p> To a good approximation, as an unionised gas rather than a plasma, the Earth's atmosphere is not influenced by its magnetic field.
+However, the Earth rotates at a faster rate than the Sun and is significantly smaller so the Coriolis force is much more significant.
+Therefore, the dynamics of the Earth's atmosphere are governed by the Navier Stokes Equations with the coriolis force, given by:
+
+\[
+\begin{aligned}
+\frac{D\mathbf{v}}{Dt} &= -\frac{1}{\rho}\nabla{}p - 2\mathbf{\Omega}\times\mathbf{v} + \mathbf{g}, \\
+\frac{D\rho}{Dt} &= - \nabla(\rho\mathbf{v}).
+\end{aligned}
+\]
+</p>
+
+<p> The effect of the Coriolis force is to give a fluid element a force perpendicular to its velocity that makes the element curve to the right (left) in the northern (southern) hemisphere.
+This rotational effect introduces some interesting phenomena such as Rossby waves which are large waves that oscillate around the globe which can break, causing violent cyclones.
+Rossby wave breaking has been linked to the extreme weather in Australia.
+</p>
+
+<p>For weather and climate forecasting, the Navier Stokes Equations are solved numerically using the current weather and climate as initial conditions.
+During a visit to Monash University, I worked with the School of Earth and Atmospheric Science to assess and compare the simulation of a heat low in central Australia using the Australian Community Climate and Earth-System Simulator (ACCESS).
+We showed how crucial the lower boundary conditions are to the accurate simulation of this heat low; in particular, how parameters such as the soil moisture content and surface albedo are to the precipitation cycle that is interwoven into the formation of the heat low.
+This research allows scientists to improve their global climate models for better climate predictions in the future. See <a href="/research/#publications">publications</a>.
+</p>
+
+<h3><a name="photovoltaics">Photovoltaics</a></h3>
+I am interested in renewable energy alternatives and have previously completed research into optimising the geometry of photovoltaic panels, using analytical and numerical methods, to see whether alternative geometries would improve upon the classic flat plane.
+
 <hr>
+
 <h2><a name="publications">Publications</a></h2>
 
 <p>See <a href="https://www.researchgate.net/profile/Matthew_Allcock">ResearchGate</a>.</p>
@@ -30,6 +84,78 @@
 <li><b>Allcock, M.</b>, and Erdelyi, R., 2016. "Magnetohydrodynamic Waves in an Asymmetric Magnetic Slab", <i>Solar Physics</i>, submitted.</li>
 <li><b>Allcock, M.</b>, and Ackerley, D., 2016. "Representing the Australian Heat Low in a GCM Using Different Surface and Cloud Schemes", 
   <i>Advances in Meteorology</i>, <a href="https://www.hindawi.com/journals/amete/2016/9702607/">vol. 2016, Article ID 9702607, 16 pages</a>.</li>
+</ul>
+
+<hr>
+
+<h2><a name="conferences">Conferences</a></h2>
+
+<p> Below is a list of the conferences, workshops, and significant seminars I have attended.
+
+<table border="1" width="850">
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> <b> Date</b> </td>
+<td> <b>Meeting</b> </td>
+<td> <b>Venue</b> </td>
+<td> <b>Contribution</b> </td>
+</tr>
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> 4-9/09/2016 </td>
+<td> STFC Advanced Summer School in Solar System Physics 2016 </td>
+<td> University of Sheffield </td>
+<td> </td>
+</tr>
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> 28-2/08/2016 </td>
+<td> STFC Introductory Course in Solar System Plasma Physics 2016 </td>
+<td> University of St. Andrews </td>
+<td> </td>
+</tr>
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> 28/06/2016 </td>
+<td> National Astronomy Meeting 2016 </td>
+<td> University of Nottingham </td>
+<td> <a href="/MAllcock_NAM16.pdf">Talk</a> </td>
+</tr>
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> 11-15/01/2016 </td>
+<td> OpenAstronomy - Software Carpentry Workshop (Python, Git, Bash, etc) </td>
+<td> University of Sheffield </td>
+<td> </td>
+</tr>
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> 11/12/2015 </td>
+<td> SP2RC seminar </td>
+<td> University of Sheffield </td>
+<td> <a href="/MAllcock_SP2RC_15.pdf">Talk</a> </td>
+</tr>
+
+<tr>
+<td></td><td></td><td></td><td></td><td></td>
+<td> 17/02/2015 </td>
+<td> SURE Showcase </td>
+<td> University of Sheffield </td>
+<td> <a href="/mallcock_SURE_poster.pdf">Poster</a> </td>
+</tr>
+</table>
+</p>
+
+<hr>
+
+<h2><a name="teaching">Teaching</a></h2>
+
 <br>
+
 </body>
 </html>
