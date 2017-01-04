@@ -6,59 +6,59 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
+  <loc>https://mallcock1.github.io/</loc>
   <lastmod>2017-01-04T10:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/2016/</loc>
+  <loc>https://mallcock1.github.io/2016/</loc>
   <lastmod>2016-12-13T17:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2017-01-04T11:31:00Z</lastmod>
+  <loc>https://mallcock1.github.io/archive.html</loc>
+  <lastmod>2017-01-04T11:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://mallcock1.github.io/categories/</loc>
   <lastmod>2016-12-13T17:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/conferences-talks-and-workshops/</loc>
+  <loc>https://mallcock1.github.io/conferences-talks-and-workshops/</loc>
   <lastmod>2016-12-14T09:57:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/contact/</loc>
+  <loc>https://mallcock1.github.io/contact/</loc>
   <lastmod>2017-01-03T15:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/cv/</loc>
+  <loc>https://mallcock1.github.io/cv/</loc>
   <lastmod>2017-01-04T09:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>https://mallcock1.github.io/galleries/</loc>
   <lastmod>2016-12-13T17:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>https://mallcock1.github.io/listings/</loc>
   <lastmod>2016-12-13T17:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/</loc>
+  <loc>https://mallcock1.github.io/posts/</loc>
   <lastmod>2017-01-04T08:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/creating-a-website-using-nikola/</loc>
+  <loc>https://mallcock1.github.io/posts/creating-a-website-using-nikola/</loc>
   <lastmod>2017-01-03T15:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/research/</loc>
+  <loc>https://mallcock1.github.io/research/</loc>
   <lastmod>2017-01-03T15:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/research/index.src.html</loc>
+  <loc>https://mallcock1.github.io/research/index.src.html</loc>
   <lastmod>2017-01-04T11:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/teaching/</loc>
+  <loc>https://mallcock1.github.io/teaching/</loc>
   <lastmod>2016-12-21T16:59:00Z</lastmod>
  </url>
 </urlset>
