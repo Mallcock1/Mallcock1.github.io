@@ -138,7 +138,7 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/Research", "Summary"),
-                ("/Research/#publications", "Publications"),
+                ("/Research/index.html#publications", "Publications"),
                 ("/Conferences-talks-and-workshops", "Conferences"),
                 ("/Teaching", "Teaching"),
             ),
