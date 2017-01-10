@@ -6,51 +6,51 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://mallcock1.github.io/</loc>
+  <loc>http://www.matthewallcock.co.uk/</loc>
   <lastmod>2017-01-05T13:20:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/2016/</loc>
+  <loc>http://www.matthewallcock.co.uk/2016/</loc>
   <lastmod>2016-12-13T17:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/archive.html</loc>
-  <lastmod>2017-01-05T11:36:00Z</lastmod>
+  <loc>http://www.matthewallcock.co.uk/archive.html</loc>
+  <lastmod>2017-01-10T09:58:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/categories/</loc>
+  <loc>http://www.matthewallcock.co.uk/categories/</loc>
   <lastmod>2016-12-13T17:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/contact/</loc>
+  <loc>http://www.matthewallcock.co.uk/contact/</loc>
   <lastmod>2017-01-03T15:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/cv/</loc>
+  <loc>http://www.matthewallcock.co.uk/cv/</loc>
   <lastmod>2017-01-04T09:16:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/galleries/</loc>
+  <loc>http://www.matthewallcock.co.uk/galleries/</loc>
   <lastmod>2016-12-13T17:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/listings/</loc>
+  <loc>http://www.matthewallcock.co.uk/listings/</loc>
   <lastmod>2016-12-13T17:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/posts/</loc>
+  <loc>http://www.matthewallcock.co.uk/posts/</loc>
   <lastmod>2017-01-04T08:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/posts/creating-a-website-using-nikola/</loc>
+  <loc>http://www.matthewallcock.co.uk/posts/creating-a-website-using-nikola/</loc>
   <lastmod>2017-01-03T15:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/research/</loc>
+  <loc>http://www.matthewallcock.co.uk/research/</loc>
   <lastmod>2017-01-03T15:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://mallcock1.github.io/research/index.src.html</loc>
+  <loc>http://www.matthewallcock.co.uk/research/index.src.html</loc>
   <lastmod>2017-01-04T15:15:00Z</lastmod>
  </url>
 </urlset>

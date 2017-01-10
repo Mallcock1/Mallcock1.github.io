@@ -1,4 +1,4 @@
-Sitemap: https://mallcock1.github.io/sitemapindex.xml
+Sitemap: http://www.matthewallcock.co.uk/sitemapindex.xml
 
 User-Agent: *
-Host: mallcock1.github.io
+Host: www.matthewallcock.co.uk

@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Matthew Allcock"  # (translatable)
 BLOG_TITLE = "Matthew Allcock"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://mallcock1.github.io/"
+SITE_URL = "http://www.matthewallcock.co.uk"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
