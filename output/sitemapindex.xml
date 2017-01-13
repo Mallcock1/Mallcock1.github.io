@@ -6,20 +6,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://www.matthewallcock.co.uk/categories/cat_catagory-here.xml</loc>
-  <lastmod>2017-01-13T09:40:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.matthewallcock.co.uk/categories/cat_other.xml</loc>
-  <lastmod>2017-01-13T09:37:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/introduction.xml</loc>
-  <lastmod>2017-01-13T09:40:00Z</lastmod>
+  <lastmod>2017-01-13T15:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/welcome.xml</loc>
-  <lastmod>2017-01-13T09:40:00Z</lastmod>
+  <lastmod>2017-01-13T15:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/galleries/rss.xml</loc>
@@ -27,10 +19,10 @@
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/rss.xml</loc>
-  <lastmod>2017-01-13T09:40:00Z</lastmod>
+  <lastmod>2017-01-13T16:27:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/sitemap.xml</loc>
-  <lastmod>2017-01-13T09:40:00Z</lastmod>
+  <lastmod>2017-01-13T16:30:00Z</lastmod>
  </sitemap>
 </sitemapindex>
