@@ -3,10 +3,11 @@
 
 
 
-<h4>Prerequisites:</h4>
-<ul>
-<li> Basic <em>Python</em>: <a href="www.example.com">www.example.com</a> </li>
-<li> Basic <em>Command line</em> commands: <a href="www.example.com">www.example.com</a> </li>
+<h4 style="color:#A9A9A9";>Prerequisites:</h4>
+
+<ul style="color:#A9A9A9";>
+<li> Basic <em>Python</em>: <a href="https://docs.python.org/3/tutorial/">https://docs.python.org/3/tutorial/</a> </li>
+<li> Basic <em>Command line</em> commands: <a href="http://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/">http://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/</a> </li>
 </ul>
 
 <hr>
@@ -14,17 +15,24 @@
 
 
 <p>
-Firstly, it seems appropriate to write about the software I am using to design, build, host, and serve this website. I am using a Python-based
+It seems appropriate to write about the software I am using to design, build, and host this website. 
+In brief, I am using:
+<ul>
+<li> <a href="https://getnikola.com/">Nikola</a> to build, </li>
+<li> <a href="http://bootswatch.com/">Bootswatch</a> for style templates, </li>
+<li> <a href="https://github.com/">Github</a> to host. </li>
+</ul>
+In this post I will discuss my use of Nikola and give a short tutorial of how to get started with your own Nikola website.
 </p>
 
 <p><a href="https://getnikola.com/">Nikola</a> is a Python package that allows the user to create static websites using Python metadata. 
-It allows each webpage to be writen in a markdown language such and html or RestructuredText and orchistrates them using Python.
-Python is a particularly good language to support because it is a bastion for open source programming, and is used extensively throughout science.
+It allows each webpage to be writen in a markup language such and html or RestructuredText and orchistrates them using Python.
+Python is a particularly good language to support because it leads the way for open source scientific programming, and is rapidly growing throughout science.
 </p>
 
 <!-- TEASER_END -->
 
-<p>The references I followed and would recommend are:
+<p>The references I used to get to grips with Nikola and would recommend are:
 <ul>
 <li> <a href="https://getnikola.com/getting-started.html">https://getnikola.com/getting-started.html</a>: getting started with Nikola, </li>
 <li> <a href="http://areskibelaid.com/nikola-one-kickass-site-generator/"> http://areskibelaid.com/nikola-one-kickass-site-generator/ </a>: installation, livereload, themes, </li>
@@ -35,10 +43,10 @@ Python is a particularly good language to support because it is a bastion for op
 </p>
 
 <h2>What is a static website?</h2>
-<p>Websites can be either <i>static</i> or <i>dynamic</i>.
-A static website is one whose content is static, that is, it can only be changed by the writer and only by changing the underlying code.
-A dynamic website can also be influenced by the website users, e.g. through comments, forms, and social networking.
-However, you can make a staic website allow the use of comments (which we will) but this involves using external resources that are part of a dynamic website, e.g. using disqus or facebook for comments.
+<p>Websites can be either <b>static</b> or <b>dynamic</b>.
+A static website is one whose content is static, that is, it can only be changed by the author and only by changing the underlying code.
+A dynamic website can also be influenced by the website users, e.g. through comments and forms.
+However, you can make a static website allow the use of comments (which I have) but this involves using external resources that are part of a dynamic website, e.g. using Disqus or Facebook for comments.
 </p>
 
 <h3>Advantages of a static website</h3>
@@ -52,31 +60,29 @@ However, you can make a staic website allow the use of comments (which we will) 
 <h3>Disadvantages of a static website</h3>
 <ul>
 <li>A pain to update (Nikola reduces this issue),</li>
-<li>Low functionality in your website (ok for personal website incl. blog),</li>
+<li>Low functionality in your website (acceptable for personal website incl. blog),</li>
 <li>Generally less user-friendly (Nikola reduces this issue).</li>
 </ul>
 
 <p>More information can be found here: <a href="https://getnikola.com/handbook.html#why-static"> https://getnikola.com/handbook.html#why-static </a>.
 
 <h2>Software prerequisites</h2>
-Download the following programs:
+To get started with Nikola, I will assume you have the following programs installed:
 <ul>
-<li> <a href="https://notepad-plus-plus.org/download/v7.2.2.html"> Notepad++ </a>: nice text editor, especially for html, </li>
+<li> A good simple text editor. I would recommend <a href="https://notepad-plus-plus.org/download/v7.2.2.html"> Notepad++ </a>. </li>
 <li> <a href="https://www.continuum.io/downloads"> Anaconda </a>: extensive Python library. </li>
 </ul>
 
 <p><b>virtualenv</b> is a tool to create isolated Python environments. 
-It allows you to separate some python components that are necessary for a project, but may interfere with components for a different project.
+It allows you to separate some python components that are necessary for a project, but may interfere with components used for a different project.
 More information can be found at <a href="http://docs.python-guide.org/en/latest/dev/virtualenvs/">http://docs.python-guide.org/en/latest/dev/virtualenvs/</a> and <a href="https://pypi.python.org/pypi/virtualenv">https://pypi.python.org/pypi/virtualenv</a>. 
 Install virtualenv via pip:
-
 <pre>
 $ pip install virtualenv
 </pre>
 </p>
 
-<p>Install the Python packages <b>requests</b> and <b>livereload</b> which allow you to live update your webpage:
-
+<p>Install the Python packages <b>requests</b> and <b>livereload</b> which allow you to live update your webpage (one of the best features of Nikola):
 <pre>
 $ pip install requests
 $ pip install livereload
@@ -106,36 +112,28 @@ after which you will be required to enter some details about the website.
 $ nikola build
 </pre>
 
-To open the website in the default browser (with automatic updates)
+To open the website in the default browser (with automatic updates!) use
 <pre>
 $ nikola auto -b
 </pre>
 and use <code>CTRL + c</code> to cancel the current automatic building session.
 </p>
 
-<p>This is currently a blank website, so lets add a page
+<p>This is currently a blank website, so lets add a <b>page</b>
 <pre>
 $ nikola new_page
 </pre>
-and a post
+and a <b>post</b>
 <pre>
 $ nikola new_post
 </pre>
-To add navigation links to the new page, in the conf.py you can adjust accordingly
-<pre>
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-		('/new_page_name.html', 'New Page Name')
-        ('/archive.html', 'Archives'),
-        ('/categories/index.html', 'Tags'),
-        ('/rss.xml', 'RSS'),
-    ),
-}
-</pre>
+Each new page and new post creates a new <code>.rst</code> (RestructuredText) file in the <em>pages</em> or <em>posts</em> folder.
+These files are where your markup code for the content of the webpage/post is written.
 </p>
 
-
-<p>To make html posts/pages default we go from this conf.py
+<p>
+The <code>conf.py</code> file is where the magic happens. This is a Python script that allows you to customise your site and is very easy to use, even if you are new to Python.
+To make html posts/pages default we go from this conf.py
 <pre>
 PAGES = (
     ("pages/*.rst", "", "story.tmpl"),
@@ -152,13 +150,25 @@ PAGES = (
 )
 </pre>
 That is, put the default file type first.
+To add navigation links to the new page, in the <code>conf.py</code> you can adjust accordingly
+<pre>
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+		('/new_page_name.html', 'New Page Name')
+        ('/archive.html', 'Archives'),
+        ('/categories/index.html', 'Tags'),
+        ('/rss.xml', 'RSS'),
+    ),
+}
+</pre>
 </p>
 
 <h2>Images and other files</h2>
-Put any image or other file that you would like to include in your website in the <em>files</em> folder.
+<p>Put any image or other file that you would like to include in your website in the <em>files</em> folder.
+</p>
 
 <h2>Themes</h2>
-<p> By default, Nikola uses the <em>bootstrap-3</em> theme, however there are many more ready-made themes at <a href="https://themes.getnikola.com/">https://themes.getnikola.com/</a>.
+<p> By default, Nikola uses the <em>bootstrap-3</em> <b>theme</b>, however there are many more ready-made themes at <a href="https://themes.getnikola.com/">https://themes.getnikola.com/</a>.
 To use a different theme, you must first install it using
 <pre>
 $ nikola install_theme theme_name
@@ -169,13 +179,14 @@ THEME = "theme_name"
 </pre>
 </p>
 
-<p>There are many additional customisations of the bootstrap theme at <a href="http://bootswatch.com/">http://bootswatch.com/</a>.
+<p>There are many additional customisations of the bootstrap theme at <a href="http://bootswatch.com/">http://bootswatch.com/</a>. I am currently (as of Jan 2017) using the <em>Lumen</em> theme which gives a simple light look.
 Further, it is possible to create a custom theme, for which I refer you to this helpful blog post <a href="http://shisaa.jp/postset/nikola-web.html">http://shisaa.jp/postset/nikola-web.html</a>.
 </p>
 
 <h2>Website first, blog second</h2>
-<p> By default, Nikola makes the home page of the your website into a blog-style page, however it does allow you to make a non-blog-style page your home page.
-First, we must set the following in the conf.py file:
+<p> This website is mainly a collection of static pages with its secondary function being this blog. 
+By default, Nikola makes the home page of the your website into a blog-style page, however it does allow you to make a non-blog-style page your home page, which is what I preferred.
+First, we must set the following in the <code>conf.py</code> file:
 <pre>
 INDEX_PATH = "posts"
 </pre>
@@ -185,10 +196,11 @@ PAGES = (
     ("pages/*.txt", "", "story.tmpl"),
 )
 </pre>
-Then we must set a particular page to be the home page by opening that page's markup document and entering
+Then we must set a particular page to be the <b>homepage</b> by opening that page's markup document and entering
 <pre>
 .. slug: index
 </pre>
+in the preamble.
 </p>
 
 <p> I like my home page to have no title, so you can turn the title off in the home page's markup document by adding 
@@ -198,8 +210,10 @@ Then we must set a particular page to be the home page by opening that page's ma
 in the preamble.</p>
 
 <h2>Extra tools</h2>
+Here are a few helpful bits-and-bobs I found along the way to improve this website.
 <h3>Favicons</h3>
-<p>To use a <b>favicon</b>, in conf.py add
+<p>A <b>favicon</b> is that cool little icon that is displayed next to the name of a website in many internet browsers. 
+To use a <b>favicon</b>, in <code>conf.py</code> add
 <pre>
 FAVICONS = (
     ("icon", "/file_name.png", "16x16"),
@@ -211,8 +225,7 @@ FAVICONS = (
 <p>To put a <b>teaser</b> of a post instead of the whole thing in the blog page we write
 <pre>TEASER_END
 </pre>
-
-and in the conf.py we write
+in the content markup file for the post, and in the <code>conf.py</code> we write
 <pre>INDEX_TEASERS = True
 </pre>
 </p>

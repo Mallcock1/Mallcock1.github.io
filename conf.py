@@ -145,7 +145,7 @@ NAVIGATION_LINKS = {
             "Research"
         ),
 #        ("/cv/", "CV"),
-#        ("/posts/", "Blog"),
+        ("/posts/", "Blog"),
         ("/contact/", "Contact"),
 #        ("/archive.html", "Archive"),
 #        ("/categories/", "Tags"),
