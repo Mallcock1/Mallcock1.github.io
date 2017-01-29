@@ -18,16 +18,8 @@
   <lastmod>2017-01-28T14:11:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy.xml</loc>
-  <lastmod>2017-01-28T13:40:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming.xml</loc>
   <lastmod>2017-01-28T14:11:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://www.matthewallcock.co.uk/categories/effective-altruism.xml</loc>
-  <lastmod>2017-01-28T13:40:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/favicon.xml</loc>
@@ -74,15 +66,11 @@
   <lastmod>2017-01-28T10:27:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.matthewallcock.co.uk/galleries/rss.xml</loc>
-  <lastmod>2017-01-28T10:26:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://www.matthewallcock.co.uk/rss.xml</loc>
   <lastmod>2017-01-28T14:11:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/sitemap.xml</loc>
-  <lastmod>2017-01-29T21:42:00Z</lastmod>
+  <lastmod>2017-01-29T21:46:00Z</lastmod>
  </sitemap>
 </sitemapindex>
