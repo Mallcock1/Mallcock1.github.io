@@ -1,4 +1,14 @@
 <html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90105626-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <body>
 
 
@@ -213,7 +223,7 @@ in the preamble.</p>
 Here are a few helpful bits-and-bobs I found along the way to improve this website.
 <h3>Favicons</h3>
 <p>A <b>favicon</b> is that cool little icon that is displayed next to the name of a website in many internet browsers. 
-To use a <b>favicon</b>, in <code>conf.py</code> add
+To use a <b>favicon</b>, save the image you would like to use as a favicon in the <i>Files</i> folder and in the <code>conf.py</code> file add
 <pre>
 FAVICONS = (
     ("icon", "/file_name.png", "16x16"),
@@ -225,7 +235,7 @@ FAVICONS = (
 <p>To put a <b>teaser</b> of a post instead of the whole thing in the blog page we write
 <pre>TEASER_END
 </pre>
-in the content markup file for the post, and in the <code>conf.py</code> we write
+in the content markup file for the post where you would like the teaser to end, and in the <code>conf.py</code> we write
 <pre>INDEX_TEASERS = True
 </pre>
 </p>
