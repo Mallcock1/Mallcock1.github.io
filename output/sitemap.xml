@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-01-29T12:28:00Z</lastmod>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-01-29T21:45:00Z</lastmod>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
@@ -30,12 +30,24 @@
   <lastmod>2017-01-19T22:37:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/body-and-surface-modes/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/bootstrap/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/cat_magnetohydrodynamics/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming/</loc>
   <lastmod>2017-01-28T13:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/eigenmodes/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/favicon/</loc>
@@ -54,16 +66,64 @@
   <lastmod>2017-01-19T20:03:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/kink-mode/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/magnetoacoustic-waves/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/magnetohydrodynamics/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/mhd/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/modes/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/nikola/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/phd/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/python/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/quasi-kink-modes/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/quasi-sausage-mode/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/research/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/restructuredtext/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/sausage-mode/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/solar-magneto-seismology/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/solar-physics/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/static-website/</loc>
@@ -72,6 +132,14 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/themes/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/waveguide/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/waves/</loc>
+  <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/website/</loc>
@@ -119,6 +187,6 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/index.src.html</loc>
-  <lastmod>2017-01-28T14:12:00Z</lastmod>
+  <lastmod>2017-02-01T21:54:00Z</lastmod>
  </url>
 </urlset>
