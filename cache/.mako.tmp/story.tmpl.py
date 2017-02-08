@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1486020793.357
+_modified_time = 1486029441.578
 _enable_loop = True
-_template_filename = u'c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/story.tmpl'
+_template_filename = u'c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/story.tmpl'
 _template_uri = u'story.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -98,6 +98,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"23": 3, "26": 4, "29": 2, "35": 0, "49": 2, "50": 3, "51": 4, "52": 5, "57": 24, "63": 7, "76": 7, "77": 8, "78": 8, "79": 10, "80": 10, "81": 11, "82": 11, "83": 14, "84": 14, "85": 16, "86": 17, "87": 18, "88": 18, "89": 19, "90": 19, "91": 22, "92": 22, "93": 22, "99": 93}, "uri": "story.tmpl", "filename": "c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/story.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"23": 3, "26": 4, "29": 2, "35": 0, "49": 2, "50": 3, "51": 4, "52": 5, "57": 24, "63": 7, "76": 7, "77": 8, "78": 8, "79": 10, "80": 10, "81": 11, "82": 11, "83": 14, "84": 14, "85": 16, "86": 17, "87": 18, "88": 18, "89": 19, "90": 19, "91": 22, "92": 22, "93": 22, "99": 93}, "uri": "story.tmpl", "filename": "c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/story.tmpl"}
 __M_END_METADATA
 """

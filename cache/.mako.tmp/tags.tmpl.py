@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1486020792.865
+_modified_time = 1486029441.228
 _enable_loop = True
-_template_filename = u'c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl'
+_template_filename = u'c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl'
 _template_uri = u'tags.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -107,6 +107,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"27": 0, "42": 2, "47": 38, "53": 4, "67": 4, "68": 5, "69": 5, "70": 6, "71": 7, "72": 8, "73": 8, "74": 8, "75": 10, "76": 11, "77": 12, "78": 14, "79": 14, "80": 14, "81": 14, "82": 14, "83": 15, "84": 16, "85": 18, "86": 19, "87": 20, "88": 21, "89": 25, "90": 26, "91": 26, "92": 26, "93": 29, "94": 30, "95": 31, "96": 32, "97": 33, "98": 33, "99": 33, "100": 33, "101": 33, "102": 36, "108": 102}, "uri": "tags.tmpl", "filename": "c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"27": 0, "42": 2, "47": 38, "53": 4, "67": 4, "68": 5, "69": 5, "70": 6, "71": 7, "72": 8, "73": 8, "74": 8, "75": 10, "76": 11, "77": 12, "78": 14, "79": 14, "80": 14, "81": 14, "82": 14, "83": 15, "84": 16, "85": 18, "86": 19, "87": 20, "88": 21, "89": 25, "90": 26, "91": 26, "92": 26, "93": 29, "94": 30, "95": 31, "96": 32, "97": 33, "98": 33, "99": 33, "100": 33, "101": 33, "102": 36, "108": 102}, "uri": "tags.tmpl", "filename": "c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl"}
 __M_END_METADATA
 """

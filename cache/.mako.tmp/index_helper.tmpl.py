@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1486020793.559
+_modified_time = 1486029441.713
 _enable_loop = True
-_template_filename = u'c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/index_helper.tmpl'
+_template_filename = u'c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/index_helper.tmpl'
 _template_uri = u'index_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['mathjax_script', 'html_pager']
@@ -86,6 +86,6 @@ def render_html_pager(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"16": 0, "21": 19, "22": 50, "28": 21, "36": 21, "37": 22, "38": 23, "39": 24, "40": 26, "41": 27, "42": 30, "43": 30, "44": 34, "45": 35, "46": 39, "47": 40, "48": 41, "49": 42, "50": 42, "51": 42, "52": 43, "53": 44, "59": 2, "66": 2, "67": 3, "68": 4, "69": 6, "70": 7, "71": 8, "72": 8, "73": 8, "74": 8, "75": 11, "76": 12, "77": 13, "78": 13, "79": 13, "80": 13, "81": 16, "87": 81}, "uri": "index_helper.tmpl", "filename": "c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/index_helper.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"16": 0, "21": 19, "22": 50, "28": 21, "36": 21, "37": 22, "38": 23, "39": 24, "40": 26, "41": 27, "42": 30, "43": 30, "44": 34, "45": 35, "46": 39, "47": 40, "48": 41, "49": 42, "50": 42, "51": 42, "52": 43, "53": 44, "59": 2, "66": 2, "67": 3, "68": 4, "69": 6, "70": 7, "71": 8, "72": 8, "73": 8, "74": 8, "75": 11, "76": 12, "77": 13, "78": 13, "79": 13, "80": 13, "81": 16, "87": 81}, "uri": "index_helper.tmpl", "filename": "c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/index_helper.tmpl"}
 __M_END_METADATA
 """

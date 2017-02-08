@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Matthew Allcock (magnetoacoustic waves)</title><link>http://www.matthewallcock.co.uk/</link><description></description><atom:link href="http://www.matthewallcock.co.uk/categories/magnetoacoustic-waves.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 02 Feb 2017 07:32:25 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MHD waves in an asymmetric slab</title><link>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-slab/</link><dc:creator>Matthew Allcock</dc:creator><description>&lt;div&gt;&lt;h4 style="color:#A9A9A9"&gt;Prerequisites:&lt;/h4&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Matthew Allcock (magnetoacoustic waves)</title><link>http://www.matthewallcock.co.uk/</link><description></description><atom:link href="http://www.matthewallcock.co.uk/categories/magnetoacoustic-waves.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 02 Feb 2017 09:37:27 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MHD waves in an asymmetric slab</title><link>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-slab/</link><dc:creator>Matthew Allcock</dc:creator><description>&lt;div&gt;&lt;figure&gt;
+&lt;a class="image-reference" href="http://www.matthewallcock.co.uk/helioviewer.png"&gt;
+&lt;img src="http://www.matthewallcock.co.uk/helioviewer.png" alt="The Sun today" style="height:370px;" align="right"&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h4 style="color:#A9A9A9"&gt;Prerequisites:&lt;/h4&gt;
 
 &lt;ul style="color:#A9A9A9"&gt;
 &lt;li&gt; An understanding of solar physics and magnetohydrodynamics. Recommended reference: Priest, E., 2014: &lt;a href="https://www.cambridge.org/core/books/magnetohydrodynamics-of-the-sun/D49C6A190F3291C176BBBB4F2E433553"&gt;Magentohydrodynamics of the Sun&lt;/a&gt;. &lt;/li&gt;
