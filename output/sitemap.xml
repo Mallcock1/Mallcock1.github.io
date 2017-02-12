@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-02-08T22:26:00Z</lastmod>
+  <lastmod>2017-02-12T20:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -159,7 +159,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-02-08T20:38:00Z</lastmod>
+  <lastmod>2017-02-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/creating-a-website-using-nikola/</loc>
@@ -167,11 +167,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/effective-altruism/</loc>
-  <lastmod>2017-01-28T13:35:00Z</lastmod>
+  <lastmod>2017-02-12T19:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/effective-altruism/index.src.html</loc>
-  <lastmod>2017-02-12T18:55:00Z</lastmod>
+  <lastmod>2017-02-12T22:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
+  <lastmod>2017-02-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-slab/</loc>
