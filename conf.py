@@ -877,7 +877,9 @@ LICENSE = ""
 CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> \
 - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> \
 - Hosted by <a href="https://github.com/" rel="nofollow">Github</a> \
-<p style="float: right;"> <a href="http://www.linkedin.com/in/matthew-allcock" target="_blank"><img src="/Linkedin_icon.png" alt="LinkedIn icon" style="height:30px;"></a> \
+<p style="float: right;"> \
+<a href="https://twitter.com/matthew_allcock" target="_blank"><img src="/twitter_icon.png" alt="Twitter icon" style="height:30px;"></a> \
+<a href="http://www.linkedin.com/in/matthew-allcock" target="_blank"><img src="/Linkedin_icon.png" alt="LinkedIn icon" style="height:32px;"></a> \
 <a href="https://www.researchgate.net/profile/Matthew_Allcock" target="_blank"><img src="/researchgate_icon.png" alt="ResearchGate icon" style="height:30px;"></a> \
 <a href="https://github.com/Mallcock1" target="_blank"><img src="/github_icon.png" alt="GitHub icon" style="height:30px;"></a> </p>       {license}'
 
