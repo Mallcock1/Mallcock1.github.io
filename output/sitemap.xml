@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-02-26T22:49:00Z</lastmod>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-02-26T22:47:00Z</lastmod>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
@@ -42,8 +42,24 @@
   <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming/</loc>
   <lastmod>2017-01-28T13:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/charity/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/donating/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/effective-altruism/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/eigenmodes/</loc>
@@ -52,6 +68,14 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/favicon/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/first-world-wealth/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/foreign-aid/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/github/</loc>
@@ -86,12 +110,32 @@
   <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/moral-philosophy/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/nikola/</loc>
   <lastmod>2017-01-19T22:37:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/peter-singer/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/phd/</loc>
   <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/philosophy/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/poverty/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/practical-philosophy/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/python/</loc>
@@ -134,12 +178,32 @@
   <lastmod>2017-01-19T22:37:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/third-world-poverty/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/veganism/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/vegetarianism/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/waveguide/</loc>
   <lastmod>2017-02-01T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/waves/</loc>
   <lastmod>2017-02-01T21:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/wealth-disparity/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/wealth/</loc>
+  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/website/</loc>
@@ -171,7 +235,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/effective-altruism/index.src.html</loc>
-  <lastmod>2017-03-18T11:52:00Z</lastmod>
+  <lastmod>2017-03-18T12:10:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
