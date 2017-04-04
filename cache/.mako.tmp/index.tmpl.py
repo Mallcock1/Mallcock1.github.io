@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1490486698.094
+_modified_time = 1491296613.195
 _enable_loop = True
-_template_filename = u'c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/index.tmpl'
+_template_filename = u'c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/index.tmpl'
 _template_uri = u'index.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'extra_head', u'content_header']
@@ -188,6 +188,6 @@ def render_content_header(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"128": 31, "129": 31, "130": 32, "131": 33, "132": 33, "133": 33, "134": 35, "135": 37, "136": 38, "137": 39, "138": 39, "139": 40, "140": 41, "141": 42, "142": 42, "143": 44, "144": 47, "145": 48, "146": 48, "147": 49, "148": 49, "149": 50, "150": 50, "23": 3, "26": 2, "156": 6, "32": 0, "166": 6, "167": 7, "168": 7, "169": 8, "170": 9, "171": 9, "172": 9, "178": 14, "56": 2, "57": 3, "58": 4, "189": 178, "63": 11, "68": 51, "74": 13, "92": 13, "97": 14, "98": 15, "99": 16, "100": 16, "101": 16, "102": 18, "103": 19, "104": 20, "105": 20, "106": 20, "107": 22, "108": 22, "109": 22, "110": 22, "111": 25, "112": 26, "113": 26, "114": 26, "115": 26, "116": 26, "117": 27, "118": 28, "119": 28, "120": 28, "121": 30, "122": 31, "123": 31, "124": 31, "125": 31, "126": 31, "127": 31}, "uri": "index.tmpl", "filename": "c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/index.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"128": 31, "129": 31, "130": 32, "131": 33, "132": 33, "133": 33, "134": 35, "135": 37, "136": 38, "137": 39, "138": 39, "139": 40, "140": 41, "141": 42, "142": 42, "143": 44, "144": 47, "145": 48, "146": 48, "147": 49, "148": 49, "149": 50, "150": 50, "23": 3, "26": 2, "156": 6, "32": 0, "166": 6, "167": 7, "168": 7, "169": 8, "170": 9, "171": 9, "172": 9, "178": 14, "56": 2, "57": 3, "58": 4, "189": 178, "63": 11, "68": 51, "74": 13, "92": 13, "97": 14, "98": 15, "99": 16, "100": 16, "101": 16, "102": 18, "103": 19, "104": 20, "105": 20, "106": 20, "107": 22, "108": 22, "109": 22, "110": 22, "111": 25, "112": 26, "113": 26, "114": 26, "115": 26, "116": 26, "117": 27, "118": 28, "119": 28, "120": 28, "121": 30, "122": 31, "123": 31, "124": 31, "125": 31, "126": 31, "127": 31}, "uri": "index.tmpl", "filename": "c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/index.tmpl"}
 __M_END_METADATA
 """
