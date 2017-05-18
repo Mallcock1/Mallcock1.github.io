@@ -140,6 +140,7 @@ NAVIGATION_LINKS = {
                 ("/research/", "Summary"),
                 ("/research/#publications", "Publications"),
                 ("/research/#conferences", "Conferences"),
+                ("/research/#outreach", "Outreach"),
                 ("/research/#teaching", "Teaching"),
             ),
             "Research"
