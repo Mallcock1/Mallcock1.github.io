@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1495104638.212
+_modified_time = 1495142667.579
 _enable_loop = True
-_template_filename = u'c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/comments_helper_isso.tmpl'
+_template_filename = u'c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/comments_helper_isso.tmpl'
 _template_uri = u'comments_helper_isso.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['comment_form', 'comment_link', 'comment_link_script']
@@ -80,6 +80,6 @@ def render_comment_link_script(context):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"16": 0, "21": 7, "22": 13, "23": 20, "29": 2, "34": 2, "35": 3, "36": 4, "37": 4, "38": 4, "39": 5, "40": 5, "41": 5, "42": 5, "48": 9, "53": 9, "54": 10, "55": 11, "56": 11, "57": 11, "63": 16, "69": 16, "70": 17, "71": 18, "72": 18, "73": 18, "74": 18, "75": 18, "81": 75}, "uri": "comments_helper_isso.tmpl", "filename": "c:/users/matt/anaconda2/lib/site-packages/nikola/data/themes/base/templates/comments_helper_isso.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"16": 0, "21": 7, "22": 13, "23": 20, "29": 2, "34": 2, "35": 3, "36": 4, "37": 4, "38": 4, "39": 5, "40": 5, "41": 5, "42": 5, "48": 9, "53": 9, "54": 10, "55": 11, "56": 11, "57": 11, "63": 16, "69": 16, "70": 17, "71": 18, "72": 18, "73": 18, "74": 18, "75": 18, "81": 75}, "uri": "comments_helper_isso.tmpl", "filename": "c:/users/matthew/anaconda/lib/site-packages/nikola/data/themes/base/templates/comments_helper_isso.tmpl"}
 __M_END_METADATA
 """
