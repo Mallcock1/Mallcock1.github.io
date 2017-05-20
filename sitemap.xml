@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-05-19T21:31:00Z</lastmod>
+  <lastmod>2017-05-19T22:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
@@ -48,10 +48,6 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_outreach/</loc>
   <lastmod>2017-05-16T16:09:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/</loc>
-  <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming/</loc>
@@ -255,11 +251,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/index.src.html</loc>
-  <lastmod>2017-05-18T21:17:00Z</lastmod>
+  <lastmod>2017-05-20T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-05-18T20:31:00Z</lastmod>
+  <lastmod>2017-05-20T22:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/creating-a-website-using-nikola/</loc>
@@ -279,11 +275,19 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-05-19T20:41:00Z</lastmod>
+  <lastmod>2017-05-20T13:53:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/index.src.html</loc>
-  <lastmod>2017-05-19T22:02:00Z</lastmod>
+  <lastmod>2017-05-20T21:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/</loc>
+  <lastmod>2017-05-20T22:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/index.src.html</loc>
+  <lastmod>2017-05-20T23:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/pint-of-science-sheffield/</loc>
