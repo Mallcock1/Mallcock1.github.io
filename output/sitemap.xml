@@ -15,11 +15,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-05-18T20:54:00Z</lastmod>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-05-28T20:24:00Z</lastmod>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/altruism/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
@@ -52,6 +56,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/charity-effectiveness/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/charity/</loc>
@@ -102,6 +110,10 @@
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/malaria/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/mathematics/</loc>
   <lastmod>2017-05-16T16:09:00Z</lastmod>
  </url>
@@ -116,6 +128,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/moral-philosophy/</loc>
   <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/neglectedness/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/nikola/</loc>
@@ -178,6 +194,10 @@
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/scale/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/science/</loc>
   <lastmod>2017-05-16T16:09:00Z</lastmod>
  </url>
@@ -198,12 +218,20 @@
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/suffering/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/themes/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/third-world-poverty/</loc>
   <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/tractability/</loc>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/veganism/</loc>
@@ -267,7 +295,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-05-28T20:25:00Z</lastmod>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/index.src.html</loc>
@@ -279,7 +307,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/index.src.html</loc>
-  <lastmod>2017-05-28T20:20:00Z</lastmod>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/pint-of-science-sheffield/</loc>
@@ -291,7 +319,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
-  <lastmod>2017-05-28T20:25:00Z</lastmod>
+  <lastmod>2017-05-28T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/index.src.html</loc>
