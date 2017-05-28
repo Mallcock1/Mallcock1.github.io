@@ -6,10 +6,6 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://www.matthewallcock.co.uk/categories/altruism.xml</loc>
-  <lastmod>2017-05-28T20:35:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda.xml</loc>
   <lastmod>2017-05-21T10:55:00Z</lastmod>
  </sitemap>
@@ -251,6 +247,6 @@
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/sitemap.xml</loc>
-  <lastmod>2017-05-28T20:37:00Z</lastmod>
+  <lastmod>2017-05-28T21:43:00Z</lastmod>
  </sitemap>
 </sitemapindex>
