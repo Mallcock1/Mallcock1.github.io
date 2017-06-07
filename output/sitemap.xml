@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-05-28T20:35:00Z</lastmod>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-05-28T20:37:00Z</lastmod>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
@@ -36,6 +36,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/bootstrap/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/capitalism/</loc>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_effective-altruism/</loc>
@@ -88,6 +92,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/github/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/givewell/</loc>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/html/</loc>
@@ -202,6 +210,10 @@
   <lastmod>2017-05-16T16:09:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/socialism/</loc>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/solar-magneto-seismology/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
@@ -218,12 +230,20 @@
   <lastmod>2017-05-28T20:35:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/the-carter-center/</loc>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/themes/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/third-world-poverty/</loc>
   <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/trachoma/</loc>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/tractability/</loc>
@@ -248,6 +268,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/wealth-disparity/</loc>
   <lastmod>2017-03-18T12:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/wealth-redistribution/</loc>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/wealth/</loc>
@@ -279,7 +303,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/buying-an-expensive-car-to-feed-the-world/index.src.html</loc>
-  <lastmod>2017-06-07T20:52:00Z</lastmod>
+  <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/creating-a-website-using-nikola/</loc>
@@ -299,7 +323,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-06-03T17:28:00Z</lastmod>
+  <lastmod>2017-06-07T21:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/index.src.html</loc>
@@ -323,7 +347,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
-  <lastmod>2017-06-03T17:28:00Z</lastmod>
+  <lastmod>2017-06-07T21:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/index.src.html</loc>
