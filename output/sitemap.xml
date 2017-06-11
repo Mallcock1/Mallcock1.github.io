@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-06-07T21:26:00Z</lastmod>
+  <lastmod>2017-06-11T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
@@ -56,6 +56,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/cat_research/</loc>
+  <lastmod>2017-06-11T14:31:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/charity-effectiveness/</loc>
@@ -291,7 +295,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/index.src.html</loc>
-  <lastmod>2017-05-20T20:57:00Z</lastmod>
+  <lastmod>2017-06-11T14:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
@@ -303,7 +307,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/buying-an-expensive-car-to-feed-the-world/index.src.html</loc>
-  <lastmod>2017-06-07T21:37:00Z</lastmod>
+  <lastmod>2017-06-11T14:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/creating-a-website-using-nikola/</loc>
@@ -315,7 +319,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/effective-altruism/index.src.html</loc>
-  <lastmod>2017-05-29T18:54:00Z</lastmod>
+  <lastmod>2017-06-11T14:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -323,11 +327,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-06-07T21:37:00Z</lastmod>
+  <lastmod>2017-06-11T10:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/index.src.html</loc>
-  <lastmod>2017-05-28T20:24:00Z</lastmod>
+  <lastmod>2017-06-11T14:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/</loc>
@@ -335,7 +339,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/index.src.html</loc>
-  <lastmod>2017-05-28T20:36:00Z</lastmod>
+  <lastmod>2017-06-11T14:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/pint-of-science-sheffield/</loc>
@@ -343,15 +347,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/pint-of-science-sheffield/index.src.html</loc>
-  <lastmod>2017-05-28T20:19:00Z</lastmod>
+  <lastmod>2017-06-11T14:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
-  <lastmod>2017-06-07T21:37:00Z</lastmod>
+  <lastmod>2017-06-11T10:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/index.src.html</loc>
-  <lastmod>2017-06-07T17:59:00Z</lastmod>
+  <lastmod>2017-06-11T14:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
