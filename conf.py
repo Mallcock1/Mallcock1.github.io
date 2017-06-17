@@ -875,14 +875,16 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> \
-- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> \
-- Hosted by <a href="https://github.com/" rel="nofollow">Github</a> \
-<p style="float: right;"> \
-<a href="https://twitter.com/matthew_allcock" target="_blank"><img src="/twitter_icon.png" alt="Twitter icon" style="height:30px;"></a> \
-<a href="http://www.linkedin.com/in/matthew-allcock" target="_blank"><img src="/Linkedin_icon.png" alt="LinkedIn icon" style="height:32px;"></a> \
-<a href="https://www.researchgate.net/profile/Matthew_Allcock" target="_blank"><img src="/researchgate_icon.png" alt="ResearchGate icon" style="height:30px;"></a> \
-<a href="https://github.com/Mallcock1" target="_blank"><img src="/github_icon.png" alt="GitHub icon" style="height:30px;"></a> </p>       {license}'
+CONTENT_FOOTER = '''Contents &copy; {date} <a href="mailto:{email}">{author}</a>
+- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>
+- Hosted by <a href="https://github.com/" rel="nofollow">Github</a>
+
+<p style="float: right;">
+<a href="https://twitter.com/matthew_allcock" target="_blank"><img src="/twitter_icon.png" alt="Twitter icon" style="height:30px;"></a>
+<a href="http://www.linkedin.com/in/matthew-allcock" target="_blank"><img src="/Linkedin_icon.png" alt="LinkedIn icon" style="height:32px;"></a>
+<a href="https://www.researchgate.net/profile/Matthew_Allcock" target="_blank"><img src="/researchgate_icon.png" alt="ResearchGate icon" style="height:30px;"></a>
+<a href="https://github.com/Mallcock1" target="_blank"><img src="/github_icon.png" alt="GitHub icon" style="height:30px;"></a></p>       {license}
+'''
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1048,19 +1050,10 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-#SOCIAL_BUTTONS_CODE = """
-#<!-- Social buttons -->
-#<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-#<a class="addthis_button_more">Share</a>
-#<ul><li><a class="addthis_button_facebook"></a>
-#<li><a class="addthis_button_google_plusone_share"></a>
-#<li><a class="addthis_button_linkedin"></a>
-#<li><a class="addthis_button_twitter"></a>
-#</ul>
-#</div>
-#<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-#<!-- End of social buttons -->
-#"""
+SOCIAL_BUTTONS_CODE = """
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-594527444c616ad8"></script> 
+"""
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
@@ -1168,7 +1161,18 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+BODY_END = """
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90105626-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
@@ -1191,7 +1195,10 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
-# ADDITIONAL_METADATA = {}
+ADDITIONAL_METADATA = {
+    'author': 'Matthew Allcock',
+    'previewimage': '/letterM.png'
+}
 
 # Nikola supports Open Graph Protocol data for enhancing link sharing and
 # discoverability of your site on Facebook, Google+, and other services.
@@ -1209,13 +1216,13 @@ UNSLUGIFY_TITLES = True
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
-# TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
-#                                   # see https://dev.twitter.com/cards/types
-#     # 'site': '@website',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
-# }
+TWITTER_CARD = {
+      'use_twitter_cards': True,  # enable Twitter Cards
+      'card': 'summary_Large_image',          # Card type, you can also use 'summary_large_image',
+                                   # see https://dev.twitter.com/cards/types
+     # 'site': '@website',         # twitter nick for the website
+      'creator': '@matthew_allcock',     # Username for the content creator / author.
+}
 
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
