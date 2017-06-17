@@ -1197,7 +1197,7 @@ UNSLUGIFY_TITLES = True
 # Additional metadata that is added to a post when creating a new_post
 ADDITIONAL_METADATA = {
     'author': 'Matthew Allcock',
-    'previewimage': '/letterM.png'
+    'previewimage': '/mallcock.png'
 }
 
 # Nikola supports Open Graph Protocol data for enhancing link sharing and
