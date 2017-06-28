@@ -149,9 +149,10 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/posts/", "Latest"),
-                ("/categories/", "Categories"),
+				("/categories/cat_research", "My research"),
+                ("/categories/cat_philosophy", "My philosophy"),
                 ("/archive.html", "Archive"),
-                ("/rss.xml", "RSS feed"),
+#                ("/rss.xml", "RSS feed"),
             ),
             "Blog"
         ),
