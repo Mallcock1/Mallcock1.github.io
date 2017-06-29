@@ -15,15 +15,31 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-06-28T21:35:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-06-28T21:24:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-experimentation/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-suffering/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-welfare/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/blog/</loc>
@@ -142,6 +158,10 @@
   <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/nc3rs/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/neglectedness/</loc>
   <lastmod>2017-05-28T20:35:00Z</lastmod>
  </url>
@@ -242,6 +262,10 @@
   <lastmod>2017-05-28T20:35:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/symposium/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/the-carter-center/</loc>
   <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
@@ -260,6 +284,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/tractability/</loc>
   <lastmod>2017-05-28T20:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/university-of-sheffield/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/veganism/</loc>

@@ -26,7 +26,7 @@ SITE_URL = "http://www.matthewallcock.co.uk/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "mallcock1@sheffield.ac.uk"
-BLOG_DESCRIPTION = "Matthew Allcock's personal website"  # (translatable)
+BLOG_DESCRIPTION = "Matthew Allcock's website"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -170,7 +170,7 @@ THEME = "custom_theme"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR ='#5670d4'
+THEME_COLOR ='#d4d456'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #

@@ -6,8 +6,24 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/3rs.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda.xml</loc>
   <lastmod>2017-06-28T21:24:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-experimentation.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-suffering.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-welfare.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/blog.xml</loc>
@@ -39,7 +55,7 @@
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy.xml</loc>
-  <lastmod>2017-06-28T21:30:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming.xml</loc>
@@ -126,6 +142,10 @@
   <lastmod>2017-06-28T21:24:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/nc3rs.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/neglectedness.xml</loc>
   <lastmod>2017-06-28T21:25:00Z</lastmod>
  </sitemap>
@@ -199,7 +219,7 @@
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/science.xml</loc>
-  <lastmod>2017-06-28T21:30:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/sheffield.xml</loc>
@@ -226,6 +246,10 @@
   <lastmod>2017-06-28T21:25:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/symposium.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/the-carter-center.xml</loc>
   <lastmod>2017-06-28T21:30:00Z</lastmod>
  </sitemap>
@@ -244,6 +268,10 @@
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/tractability.xml</loc>
   <lastmod>2017-06-28T21:25:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.matthewallcock.co.uk/categories/university-of-sheffield.xml</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/categories/veganism.xml</loc>
@@ -279,10 +307,10 @@
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/rss.xml</loc>
-  <lastmod>2017-06-28T21:30:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.matthewallcock.co.uk/sitemap.xml</loc>
-  <lastmod>2017-06-28T21:35:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </sitemap>
 </sitemapindex>
