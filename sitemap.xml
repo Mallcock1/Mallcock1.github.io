@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-06-07T18:02:00Z</lastmod>
+  <lastmod>2017-06-28T19:46:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -15,15 +15,31 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-06-17T13:18:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-06-11T14:31:00Z</lastmod>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/anaconda/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-experimentation/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-suffering/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/animal-welfare/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/blog/</loc>
@@ -46,8 +62,16 @@
   <lastmod>2017-05-19T21:30:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/cat_other/</loc>
+  <lastmod>2017-06-28T21:23:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_outreach/</loc>
   <lastmod>2017-05-16T16:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/</loc>
+  <lastmod>2017-06-28T21:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_programming/</loc>
@@ -134,6 +158,10 @@
   <lastmod>2017-03-18T12:08:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/nc3rs/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/neglectedness/</loc>
   <lastmod>2017-05-28T20:35:00Z</lastmod>
  </url>
@@ -172,6 +200,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/presentation/</loc>
   <lastmod>2017-05-16T16:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/programming/</loc>
+  <lastmod>2017-06-28T21:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/python/</loc>
@@ -230,6 +262,10 @@
   <lastmod>2017-05-28T20:35:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/symposium/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/the-carter-center/</loc>
   <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
@@ -248,6 +284,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/tractability/</loc>
   <lastmod>2017-05-28T20:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/university-of-sheffield/</loc>
+  <lastmod>2017-06-29T20:57:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/veganism/</loc>
@@ -291,7 +331,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-06-17T11:56:00Z</lastmod>
+  <lastmod>2017-06-28T19:46:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
+  <lastmod>2017-06-28T19:46:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/buying-an-expensive-car-to-feed-the-world/</loc>
@@ -311,7 +355,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-06-17T14:00:00Z</lastmod>
+  <lastmod>2017-06-17T17:33:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/</loc>
@@ -323,7 +367,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
-  <lastmod>2017-06-17T14:00:00Z</lastmod>
+  <lastmod>2017-06-17T17:33:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
