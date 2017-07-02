@@ -312,7 +312,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-#LOGO_URL = '/letterM.png'
+LOGO_URL = '/logo-MA-fade.png" style="height:40px;margin: 0px 20px'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -507,12 +507,12 @@ FRONT_INDEX_HEADER = {
 }
 
 # Create per-month archives instead of per-year
-# CREATE_MONTHLY_ARCHIVE = False
+CREATE_MONTHLY_ARCHIVE = True
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+#CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
-# CREATE_FULL_ARCHIVES = False
+#CREATE_FULL_ARCHIVES = True
 # If monthly archives or full archives are created, adds also one archive per day
 # CREATE_DAILY_ARCHIVE = False
 # Final locations for the archives are:
