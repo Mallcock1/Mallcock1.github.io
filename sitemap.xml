@@ -7,19 +7,43 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-06-28T19:46:00Z</lastmod>
+  <lastmod>2017-07-03T22:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
-  <lastmod>2017-05-18T20:22:00Z</lastmod>
+  <lastmod>2017-07-02T13:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/2017/01/</loc>
+  <lastmod>2017-07-02T13:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/2017/02/</loc>
+  <lastmod>2017-07-02T13:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/2017/03/</loc>
+  <lastmod>2017-07-02T13:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/2017/04/</loc>
+  <lastmod>2017-07-02T13:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/2017/05/</loc>
+  <lastmod>2017-07-02T13:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/2017/06/</loc>
+  <lastmod>2017-07-02T13:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-06-29T20:57:00Z</lastmod>
+  <lastmod>2017-07-03T21:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-06-29T21:05:00Z</lastmod>
+  <lastmod>2017-07-03T22:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
@@ -315,11 +339,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2017-05-18T21:20:00Z</lastmod>
+  <lastmod>2017-07-03T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-06-28T19:46:00Z</lastmod>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -343,7 +367,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-07-01T10:49:00Z</lastmod>
+  <lastmod>2017-07-03T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/</loc>
@@ -355,7 +379,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
-  <lastmod>2017-07-01T10:49:00Z</lastmod>
+  <lastmod>2017-07-03T22:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -363,6 +387,6 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/</loc>
-  <lastmod>2017-05-18T20:22:00Z</lastmod>
+  <lastmod>2017-07-02T13:41:00Z</lastmod>
  </url>
 </urlset>
