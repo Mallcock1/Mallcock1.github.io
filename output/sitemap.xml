@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-07-02T10:11:00Z</lastmod>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
-  <lastmod>2017-07-02T13:02:00Z</lastmod>
+  <lastmod>2017-07-02T13:41:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/01/</loc>
@@ -70,8 +70,12 @@
   <lastmod>2017-07-02T13:05:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/2017/07/</loc>
+  <lastmod>2017-07-02T13:41:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
+  <lastmod>2017-07-03T21:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
@@ -375,7 +379,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-06-28T19:46:00Z</lastmod>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -406,8 +410,48 @@
   <lastmod>2017-05-28T20:35:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/posts/other/creating-a-website-using-nikola/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/other/welcome/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/philosophy/3-rs-to-reduce-animal-suffering/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/philosophy/buying-an-expensive-car-to-feed-the-world/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/philosophy/effective-altruism/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/philosophy/my-pledge/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/philosophy/not-all-charity-is-equal/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/philosophy/the-good-the-bad-and-the-ugly-of-altruism/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/posts/pint-of-science-sheffield/</loc>
   <lastmod>2017-05-16T16:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/research/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/research/pint-of-science-sheffield/</loc>
+  <lastmod>2017-07-02T13:54:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
@@ -419,6 +463,302 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/</loc>
-  <lastmod>2017-05-18T20:22:00Z</lastmod>
+  <lastmod>2017-07-02T13:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/research/test-post-for-sections/</loc>
+  <lastmod>2017-07-02T13:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/3rs/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/anaconda/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/animal-experimentation/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/animal-suffering/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/animal-welfare/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/blog/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/body-and-surface-modes/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/bootstrap/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/capitalism/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/cat_other/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/cat_philosophy/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/cat_research/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/charity-effectiveness/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/charity/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/donating/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/effective-altruism/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/eigenmodes/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/favicon/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/first-world-wealth/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/foreign-aid/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/github/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/givewell/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/html/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/kink-mode/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/magnetoacoustic-waves/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/magnetohydrodynamics/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/malaria/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/mathematics/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/mhd/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/modes/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/moral-philosophy/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/nc3rs/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/neglectedness/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/nikola/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/outreach/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/peter-singer/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/phd/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/philosophy/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/pint-of-science/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/poverty/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/practical-philosophy/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/presentation/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/programming/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/python/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/quasi-kink-modes/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/quasi-sausage-mode/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/research/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/restructuredtext/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/sausage-mode/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/scale/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/science/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/sheffield/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/socialism/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/solar-magneto-seismology/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/solar-physics/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/static-website/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/suffering/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/symposium/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/the-carter-center/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/themes/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/third-world-poverty/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/trachoma/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/tractability/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/university-of-sheffield/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/veganism/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/vegetarianism/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/waveguide/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/waves/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/wealth-disparity/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/wealth-redistribution/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/wealth/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/tags/website/</loc>
+  <lastmod>2017-07-02T16:04:00Z</lastmod>
  </url>
 </urlset>

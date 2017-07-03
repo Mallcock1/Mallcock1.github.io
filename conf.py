@@ -134,7 +134,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "Home"),
+#        ("/", "Home"),
         (
             (
                 ("/research/", "Summary"),
@@ -145,22 +145,18 @@ NAVIGATION_LINKS = {
             ),
             "Research"
         ),
-#        ("/cv/", "CV"),
         (
             (
                 ("/posts/", "Latest"),
-				("/categories/cat_research", "My research"),
+                ("/categories/cat_research", "My research"),
                 ("/categories/cat_philosophy", "My philosophy"),
+                ("/categories/cat_other", "Bits 'n' bobs"),
                 ("/archive.html", "Archive"),
 #                ("/rss.xml", "RSS feed"),
             ),
             "Blog"
         ),
-#        ("/posts/", "Blog"),
         ("/contact/", "Contact"),
-#        ("/archive.html", "Archive"),
-#        ("/categories/", "Tags"),
-#        ("/rss.xml", "RSS feed"),
     ),
 }
 
@@ -197,8 +193,12 @@ THEME_COLOR ='#d4d456'
 # The difference between POSTS and PAGES is that POSTS are added
 # to feeds, indexes, tag lists and archives and are considered part
 # of a blog, while PAGES are just independent HTML pages.
-#
-
+##
+#POSTS = (
+#    ('posts/research/*.html', 'posts/research', 'post.tmpl'),
+#    ('posts/philosophy/*.html', 'posts/philosophy', 'post.tmpl'),
+#    ('posts/other/*.html', 'posts/other', 'post.tmpl'),
+#)
 POSTS = (
     ("posts/*.html", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
@@ -335,20 +335,21 @@ POSTS_SECTIONS = True
 # is assigned to  each section based on shifting the hue of your THEME_COLOR
 # at least 7.5 % while leaving the lightness and saturation untouched in the
 # HUSL colorspace. You can overwrite colors by assigning them colors in HEX.
-# POSTS_SECTION_COLORS = {
-#     DEFAULT_LANG: {
-#         'posts':  '#49b11bf',
-#         'reviews':   '#ffe200',
-#     },
-# }
+#POSTS_SECTION_COLORS = {
+#    DEFAULT_LANG: {
+#        'Research':  '#49b11bf',
+#        'Philosophy':   '#ffe200',
+#    },
+#}
 
 # Associate a description with a section. For use in meta description on
 # section index pages or elsewhere in themes.
-# POSTS_SECTION_DESCRIPTIONS = {
-#     DEFAULT_LANG: {
-#         'how-to': 'Learn how-to things properly with these amazing tutorials.',
-#     },
-# }
+#POSTS_SECTION_DESCRIPTIONS = {
+#    DEFAULT_LANG: {
+#        'Research': 'Updates about my research in solar physics.',
+#        'Philosophy': 'Updates about my interest in philosophy.',
+#    },
+#}
 
 # Sections are determined by their output directory as set in POSTS by default,
 # but can alternatively be determined from file metadata instead.
@@ -441,25 +442,34 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# CATEGORY_PAGES_ARE_INDEXES = False
+CATEGORY_PAGES_ARE_INDEXES = True
+
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
-# CATEGORY_PAGES_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-blog posts about blogging about blogging.",
-#        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
-#    },
-# }
+CATEGORY_PAGES_DESCRIPTIONS = {
+   DEFAULT_LANG: {
+       "research": '<div class="well well-lg"> \
+       Updates as I meander through my PhD, trying to understand \
+       waves on the Sun. A summary of my research can be found <a href="/research">here</a>.</div>',
+       "philosophy": '<div class="well well-lg"><p>I want to make the world a better place, and I want to do \
+       this in the most effective way possible. To accomplish this, I use a \
+       philosophical framework known as <a href="/posts/effective-altruism">effective altruism</a>. \
+       This involves using evidence and logical reasoning to dermine the most \
+       effective way to reduce suffering in the world, and then acting on that.</p></div>',
+       "other": '<div class="well well-lg">Other bits and bobs that find their way \
+       from my mind to the page.</div>',
+   },
+}
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
-# CATEGORY_PAGES_TITLES = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-posts about blogging",
-#        "open source": "Posts about open source software"
-#    },
-# }
+CATEGORY_PAGES_TITLES = {
+   DEFAULT_LANG: {
+       "research": "Posts about my research",
+       "other": "Posts about other things",
+   },
+}
 
 # If you do not want to display a category publicly, you can mark it as hidden.
 # The category will not be displayed on the category list page.
