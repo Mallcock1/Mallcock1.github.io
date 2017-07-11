@@ -147,10 +147,10 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-                ("/posts/", "Latest"),
                 ("/categories/cat_research", "Matt does"),
                 ("/categories/cat_philosophy", "Matt thinks"),
                 ("/categories/cat_other", "Bits 'n' bobs"),
+                ("/posts/", "All"),
                 ("/archive.html", "Archive"),
 #                ("/rss.xml", "RSS feed"),
             ),
@@ -312,7 +312,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = '/logo-MA-fade.png" style="height:40px;margin: 0px 20px'
+# LOGO_URL = '/logo-MA-fade.png" style="height:40px;margin: 0px 20px'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -382,7 +382,7 @@ POSTS_SECTIONS = True
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
 # (translatable)
-# TAG_PATH = "categories"
+TAG_PATH = "categories"
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
 # here any path relative to the output directory.
@@ -427,8 +427,8 @@ HIDDEN_TAGS = ['mathjax']
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)
 # (translatable)
-# CATEGORY_PATH = "categories"
-# CATEGORY_PREFIX = "cat_"
+CATEGORY_PATH = "categories"
+CATEGORY_PREFIX = "cat_"
 
 # If CATEGORY_ALLOW_HIERARCHIES is set to True, categories can be organized in
 # hierarchies. For a post, the whole path in the hierarchy must be specified,
@@ -450,24 +450,25 @@ CATEGORY_PAGES_ARE_INDEXES = True
 # and displayed underneath the category list or index page’s title.
 CATEGORY_PAGES_DESCRIPTIONS = {
    DEFAULT_LANG: {
-       "research": '<div class="well well-lg"> \
+       "research": '<br><div class="alert alert-dismissible alert-info"> \
        Updates as I meander through my PhD, trying to understand \
-       waves on the Sun. A summary of my research can be found <a href="/research">here</a>.</div>',
-       "philosophy": '<div class="well well-lg"><p>I want to make the world a better place, and I want to do \
+       waves on the Sun. A summary of my research can be found <a href="/research" class="alert-link">here</a>.</div><br>',
+       "philosophy": '<br><div class="alert alert-dismissible alert-info"><p>I want to make the world a better place, and I want to do \
        this in the most effective way possible. To accomplish this, I use a \
-       philosophical framework known as <a href="/posts/effective-altruism">effective altruism</a>. \
+       framework known as <a href="/posts/effective-altruism" class="alert-link">effective altruism</a>. \
        This involves using evidence and logical reasoning to dermine the most \
-       effective way to reduce suffering in the world, and then acting on that.</p></div>',
-       "other": '<div class="well well-lg">Other bits and bobs that find their way \
-       from my mind to the page.</div>',
+       effective way to reduce suffering in the world, and then acting on that.</p></div><br>',
+       "other": '<br><div class="alert alert-dismissible alert-info">Other ideas that find their way \
+       from my mind to the page.</div><br>',
    },
 }
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
 CATEGORY_PAGES_TITLES = {
    DEFAULT_LANG: {
-       "research": "Posts about my research",
-       "other": "Posts about other things",
+       "research": "Matt does...",
+	   "philosophy": "Matt thinks...",
+       "other": "Other bits 'n' bobs",
    },
 }
 
