@@ -520,7 +520,7 @@ CREATE_MONTHLY_ARCHIVE = True
 #CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
-#CREATE_FULL_ARCHIVES = True
+CREATE_FULL_ARCHIVES = True
 # If monthly archives or full archives are created, adds also one archive per day
 # CREATE_DAILY_ARCHIVE = False
 # Final locations for the archives are:
