@@ -454,10 +454,7 @@ CATEGORY_PAGES_DESCRIPTIONS = {
        Updates as I meander through my PhD, trying to understand \
        waves on the Sun. A summary of my research can be found <a href="/research" class="alert-link">here</a>.</div><br>',
        "philosophy": '<br><div class="alert alert-dismissible alert-info"><p>I want to make the world a better place, and I want to do \
-       this in the most effective way possible. To accomplish this, I use a \
-       framework known as <a href="/posts/effective-altruism" class="alert-link">effective altruism</a>. \
-       This involves using evidence and logical reasoning to dermine the most \
-       effective way to reduce suffering in the world, and then acting on that.</p></div><br>',
+       this in the most effective way possible. This way of thinking is known as <a href="/posts/effective-altruism" class="alert-link">effective altruism</a>.</div>',
        "other": '<br><div class="alert alert-dismissible alert-info">Other ideas that find their way \
        from my mind to the page.</div><br>',
    },
@@ -1062,7 +1059,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-SOCIAL_BUTTONS_CODE = """
+eSOCIAL_BUTTONS_CODE = """
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-594527444c616ad8"></script> 
 """

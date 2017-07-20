@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-07-11T20:56:00Z</lastmod>
+  <lastmod>2017-07-17T15:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -43,11 +43,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-07-12T20:56:00Z</lastmod>
+  <lastmod>2017-07-20T21:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-07-11T20:56:00Z</lastmod>
+  <lastmod>2017-07-20T21:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
@@ -150,6 +150,10 @@
   <lastmod>2017-06-07T21:26:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/giving-what-we-can/</loc>
+  <lastmod>2017-07-20T21:08:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/html/</loc>
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
@@ -220,6 +224,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/playpumps/</loc>
   <lastmod>2017-07-11T20:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/pledge/</loc>
+  <lastmod>2017-07-20T21:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/poverty/</loc>
@@ -359,11 +367,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2017-07-12T16:57:00Z</lastmod>
+  <lastmod>2017-07-17T15:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-07-16T20:14:00Z</lastmod>
+  <lastmod>2017-07-20T21:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -382,12 +390,12 @@
   <lastmod>2017-03-18T10:06:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
-  <lastmod>2017-05-18T20:22:00Z</lastmod>
+  <loc>http://www.matthewallcock.co.uk/posts/giving-what-i-can/</loc>
+  <lastmod>2017-07-18T20:30:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.matthewallcock.co.uk/posts/my-pledge/</loc>
-  <lastmod>2017-07-12T16:57:00Z</lastmod>
+  <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
+  <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/</loc>
@@ -407,11 +415,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-to-reduce-global-suffering-part-i-money/</loc>
-  <lastmod>2017-07-16T20:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-to-reduce-global-suffering/</loc>
-  <lastmod>2017-07-12T20:29:00Z</lastmod>
+  <lastmod>2017-07-17T15:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/</loc>
