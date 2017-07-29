@@ -515,7 +515,7 @@ FRONT_INDEX_HEADER = {
 }
 
 # Create per-month archives instead of per-year
-CREATE_MONTHLY_ARCHIVE = True
+#CREATE_MONTHLY_ARCHIVE = True
 # Create one large archive instead of per-year
 #CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
@@ -1059,7 +1059,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-eSOCIAL_BUTTONS_CODE = """
+SOCIAL_BUTTONS_CODE = """
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-594527444c616ad8"></script> 
 """
