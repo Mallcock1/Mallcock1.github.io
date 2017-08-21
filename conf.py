@@ -884,16 +884,49 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '''Contents &copy; {date} <a href="mailto:{email}">{author}</a>
-- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>
-- Hosted by <a href="https://github.com/" rel="nofollow">Github</a>
+CONTENT_FOOTER = '''
+<center>
 
-<p style="float: right;">
-<a href="https://twitter.com/matthew_allcock" target="_blank"><img src="/twitter_icon.png" alt="Twitter icon" style="height:30px;"></a>
-<a href="http://www.linkedin.com/in/matthew-allcock" target="_blank"><img src="/Linkedin_icon.png" alt="LinkedIn icon" style="height:32px;"></a>
-<a href="https://www.researchgate.net/profile/Matthew_Allcock" target="_blank"><img src="/researchgate_icon.png" alt="ResearchGate icon" style="height:30px;"></a>
-<a href="https://github.com/Mallcock1" target="_blank"><img src="/github_icon.png" alt="GitHub icon" style="height:30px;"></a></p>       {license}
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//matthewallcock.us16.list-manage.com/subscribe/post?u=1e8fd8b8caabf27414f497afc&amp;id=09933a9388" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h4><label for="mce-EMAIL">Subscribe for updates</label></h4>
+<div class="mc-field-group">
+
+		<input type="text" value="" style="display: inline;" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your email">
+		&nbsp;
+		<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+
+</div>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1e8fd8b8caabf27414f497afc_09933a9388" tabindex="-1" value=""></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+<br>
+
+Contents &copy; {date} <a href="mailto:{email}">{author}</a>
+- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>{license}
+<br>
+</div>
+</center>
 '''
+#SEARCH_FORM = """
+#<!-- Google custom search -->
+#<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+#<div class="form-group">
+#<input type="text" name="q" class="form-control" placeholder="Search">
+#</div>
+#<button type="submit" class="btn btn-primary">
+#	<span class="glyphicon glyphicon-search"></span>
+#</button>
+#<input type="hidden" name="sitesearch" value="%s">
+#</form>
+#<!-- End of custom search -->
+#"""
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
