@@ -7,43 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-07-17T15:20:00Z</lastmod>
+  <lastmod>2017-08-20T17:29:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
   <lastmod>2017-07-02T13:41:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.matthewallcock.co.uk/2017/01/</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/2017/02/</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/2017/03/</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/2017/04/</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/2017/05/</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/2017/06/</loc>
-  <lastmod>2017-07-02T13:05:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/2017/07/</loc>
-  <lastmod>2017-07-20T21:40:00Z</lastmod>
- </url>
- <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-07-30T21:14:00Z</lastmod>
+  <lastmod>2017-08-21T21:59:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
@@ -367,7 +339,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2017-07-30T21:14:00Z</lastmod>
+  <lastmod>2017-07-30T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
@@ -415,7 +387,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-to-reduce-global-suffering-part-i-money/</loc>
-  <lastmod>2017-07-30T21:14:00Z</lastmod>
+  <lastmod>2017-07-30T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/</loc>
