@@ -444,19 +444,73 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # the posts themselves. If set to False, it will be just a list of links.
 CATEGORY_PAGES_ARE_INDEXES = True
 
+MAILCHIMP_SIGNUP = '''
+<!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup">
+        <form action="//matthewallcock.us16.list-manage.com/subscribe/post?u=1e8fd8b8caabf27414f497afc&amp;id=09933a9388" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+            <h4><label for="mce-EMAIL">Subscribe for updates</label></h4>
+                <div class="mc-field-group">
+                    <input type="text" value="" style="display: inline;" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your email">
+                    &nbsp;
+                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1e8fd8b8caabf27414f497afc_09933a9388" tabindex="-1" value="">
+                </div>
+            </div>
+        </form>
+    </div>
+<!--End mc_embed_signup-->
+'''
+
+DESCRIPTION_FOR_SUB = '''
+<p>Time is precious! Save time by subscribing below for email updates.
+</p>
+'''
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
 CATEGORY_PAGES_DESCRIPTIONS = {
    DEFAULT_LANG: {
-       "research": '<br><div class="alert alert-dismissible alert-info"> \
-       Updates as I meander through my PhD, trying to understand \
-       waves on the Sun. A summary of my research can be found <a href="/research" class="alert-link">here</a>.</div><br>',
-       "philosophy": '<br><div class="alert alert-dismissible alert-info"><p>I want to make the world a better place, and I want to do \
-       this in the most effective way possible. This way of thinking is known as <a href="/posts/effective-altruism" class="alert-link">effective altruism</a>.</div>',
-       "other": '<br><div class="alert alert-dismissible alert-info">Other ideas that find their way \
-       from my mind to the page.</div><br>',
+       "research": '''
+       <p>Updates as I meander through my PhD, trying to understand 
+       waves on the Sun. A summary of my research can be found <a href="/research">here</a>.
+       </p>
+       ''' + DESCRIPTION_FOR_SUB + '''
+       <center>
+       ''' + MAILCHIMP_SIGNUP + '''
+       </center>
+       <hr>
+       ''',
+
+       "philosophy": '''
+       <p>I want to make the world a better place, and I want to do this in the most effective way possible. 
+       This way of thinking is known as <a href="/posts/effective-altruism">effective altruism</a>.
+       </p>
+       <p>
+       I write here about my thoughts about effective ways to improve the world, to reduce global poverty, animal cruelty, existential risk etc.
+       </p>
+       <p>
+       We each have the power to help. Let's do it!
+       </p>
+       ''' + DESCRIPTION_FOR_SUB + '''
+       <center>
+       ''' + MAILCHIMP_SIGNUP + '''
+       </center>
+       <hr>
+       ''',
+       
+       "other": '''
+       <p>Other ideas that find their way from my mind to the page.
+       </p>
+       ''' + DESCRIPTION_FOR_SUB + '''
+       <center>
+       ''' + MAILCHIMP_SIGNUP + '''
+       </center>
+       <hr>
+       ''',
    },
 }
 
@@ -886,26 +940,7 @@ LICENSE = ""
 # (translatable)
 CONTENT_FOOTER = '''
 <center>
-
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//matthewallcock.us16.list-manage.com/subscribe/post?u=1e8fd8b8caabf27414f497afc&amp;id=09933a9388" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h4><label for="mce-EMAIL">Subscribe for updates</label></h4>
-		<div class="mc-field-group">
-
-			<input type="text" value="" style="display: inline;" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your email">
-			&nbsp;
-			<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
-
-		</div>
-		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1e8fd8b8caabf27414f497afc_09933a9388" tabindex="-1" value=""></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
+''' + MAILCHIMP_SIGNUP + '''
 <br>
 
 Contents &copy; {date} <a href="mailto:{email}">{author}</a>
@@ -913,19 +948,7 @@ Contents &copy; {date} <a href="mailto:{email}">{author}</a>
 </center>
 <br>
 '''
-#SEARCH_FORM = """
-#<!-- Google custom search -->
-#<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-#<div class="form-group">
-#<input type="text" name="q" class="form-control" placeholder="Search">
-#</div>
-#<button type="submit" class="btn btn-primary">
-#	<span class="glyphicon glyphicon-search"></span>
-#</button>
-#<input type="hidden" name="sitesearch" value="%s">
-#</form>
-#<!-- End of custom search -->
-#"""
+
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
