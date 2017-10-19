@@ -490,7 +490,7 @@ CATEGORY_PAGES_DESCRIPTIONS = {
        This way of thinking is known as <a href="/posts/effective-altruism">effective altruism</a>.
        </p>
        <p>
-       I write here about my thoughts about effective ways to improve the world, to reduce global poverty, animal cruelty, existential risk etc.
+       I write here about my thoughts about the most effective ways to improve the world - including global poverty, non-human animal suffering, existential risk reduction.
        </p>
        <p>
        We each have the power to help. Let's do it!
