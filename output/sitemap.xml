@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-10-19T19:33:00Z</lastmod>
+  <lastmod>2017-10-22T20:23:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -343,7 +343,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-09-10T19:04:00Z</lastmod>
+  <lastmod>2017-10-21T08:45:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -364,6 +364,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/giving-what-i-can/</loc>
   <lastmod>2017-07-18T20:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
+  <lastmod>2017-10-19T21:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -390,8 +394,24 @@
   <lastmod>2017-05-18T20:22:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-part-i/</loc>
+  <lastmod>2017-10-21T08:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-part-ii/</loc>
+  <lastmod>2017-10-21T08:45:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-to-reduce-global-suffering-part-i-money/</loc>
   <lastmod>2017-10-19T19:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-to-reduce-global-suffering-part-i/</loc>
+  <lastmod>2017-10-19T21:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-to-reduce-global-suffering-part-ii/</loc>
+  <lastmod>2017-10-21T08:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/</loc>
