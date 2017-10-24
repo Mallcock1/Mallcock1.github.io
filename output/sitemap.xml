@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-10-22T20:23:00Z</lastmod>
+  <lastmod>2017-10-24T21:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -339,11 +339,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2017-10-22T21:31:00Z</lastmod>
+  <lastmod>2017-10-24T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-10-21T08:45:00Z</lastmod>
+  <lastmod>2017-10-24T21:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -367,7 +367,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2017-10-22T21:31:00Z</lastmod>
+  <lastmod>2017-10-24T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -383,11 +383,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/students-do-these-things-to-improve-the-world-most/</loc>
-  <lastmod>2017-10-22T21:31:00Z</lastmod>
+  <lastmod>2017-10-24T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-good-the-bad-and-the-ugly-of-altruism/</loc>
   <lastmod>2017-07-08T21:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/the-way-we-help-people-is-fundamentally-flawed/</loc>
+  <lastmod>2017-10-24T21:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -395,11 +399,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-part-i/</loc>
-  <lastmod>2017-10-22T21:31:00Z</lastmod>
+  <lastmod>2017-10-24T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/what-can-a-student-do-part-ii/</loc>
-  <lastmod>2017-10-22T21:31:00Z</lastmod>
+  <lastmod>2017-10-24T20:26:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/research/</loc>
