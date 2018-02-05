@@ -7,19 +7,23 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2017-12-11T23:15:00Z</lastmod>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
   <lastmod>2017-12-08T18:11:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/2018/</loc>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2017-12-14T10:56:00Z</lastmod>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2017-12-14T10:56:00Z</lastmod>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
@@ -52,6 +56,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/body-and-surface-modes/</loc>
   <lastmod>2017-12-08T18:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/body-modes/</loc>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/bootstrap/</loc>
@@ -132,6 +140,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/kink-mode/</loc>
   <lastmod>2017-12-08T18:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/magneto-acoustic-waves/</loc>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/magnetoacoustic-waves/</loc>
@@ -266,6 +278,10 @@
   <lastmod>2017-12-08T22:21:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/categories/slab/</loc>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/categories/socialism/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
  </url>
@@ -288,6 +304,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/suffering/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/surface-modes/</loc>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/symposium/</loc>
@@ -359,15 +379,19 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2017-12-14T19:28:00Z</lastmod>
+  <lastmod>2018-01-13T13:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2017-12-08T22:21:00Z</lastmod>
+  <lastmod>2018-02-05T20:23:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/asymmetric-slab-embedded-in-a-magnetic-environment/</loc>
+  <lastmod>2018-02-05T20:23:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/buying-an-expensive-car-to-feed-the-world/</loc>
@@ -387,11 +411,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/index-1.html</loc>
-  <lastmod>2017-12-14T10:56:00Z</lastmod>
+  <lastmod>2018-02-05T20:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2017-12-14T19:28:00Z</lastmod>
+  <lastmod>2018-01-13T13:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/magneto-acoustic-modes-of-an-asymmetric-slab-embedded-in-a-magnetic-environment/</loc>
+  <lastmod>2018-02-05T20:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -411,11 +439,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-reducetarian-solution-a-review/</loc>
-  <lastmod>2017-12-14T19:28:00Z</lastmod>
+  <lastmod>2018-01-13T13:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-way-we-help-the-poor-is-fundamentally-flawed/</loc>
-  <lastmod>2017-12-14T19:28:00Z</lastmod>
+  <lastmod>2018-01-13T13:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
