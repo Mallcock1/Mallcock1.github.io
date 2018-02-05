@@ -466,7 +466,7 @@ MAILCHIMP_SIGNUP = '''
 
 DESCRIPTION_FOR_SUB = '''
 <hr>
-<p>Time is precious! Save time by subscribing below for email updates.
+<p>Time is precious! Save it by subscribing below for email updates.
 </p>
 '''
 
