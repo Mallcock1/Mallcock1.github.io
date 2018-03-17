@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2018-02-05T20:03:00Z</lastmod>
+  <lastmod>2018-02-28T21:19:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -371,11 +371,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2018-02-05T20:56:00Z</lastmod>
+  <lastmod>2018-02-28T20:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2018-02-05T20:52:00Z</lastmod>
+  <lastmod>2018-03-17T12:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -407,15 +407,23 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2018-02-05T20:56:00Z</lastmod>
+  <lastmod>2018-02-28T20:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
   <lastmod>2017-12-08T18:11:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/posts/new-publication-sunny-wave-guessing-with-funny-waves-in-funny-shapes/</loc>
+  <lastmod>2018-03-17T12:32:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/posts/not-all-charity-is-equal/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/open-mindful/</loc>
+  <lastmod>2018-02-28T21:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/pint-of-science-sheffield/</loc>
@@ -427,11 +435,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-reducetarian-solution-a-review/</loc>
-  <lastmod>2018-02-05T20:56:00Z</lastmod>
+  <lastmod>2018-02-28T20:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-way-we-help-the-poor-is-fundamentally-flawed/</loc>
-  <lastmod>2018-02-05T20:56:00Z</lastmod>
+  <lastmod>2018-02-28T20:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
