@@ -15,7 +15,7 @@
 'render_posts:cache\\posts\\welcome.html', (35328, 358)
 'render_posts:cache\\posts\\3-rs-to-reduce-animal-suffering.html', (35840, 429)
 'render_taxonomies:output\\categories\\bootstrap\\index.html', (36352, 2025)
-'copy_files:output\\icon-speech.png', (38400, 254)
+'copy_files:output\\icon-speech.png', (38400, 255)
 'copy_assets:output\\assets\\js\\jquery.min.map', (38912, 429)
 'copy_assets:output\\assets\\xml\\atom.xsl', (39424, 405)
 'copy_assets:output\\assets\\css\\images\\controls.png', (39936, 441)
