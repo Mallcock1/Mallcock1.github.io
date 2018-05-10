@@ -310,3 +310,4 @@
 'render_sources:output\\posts\\towards-abolition\\index.src.html', (750080, 264)
 'render_posts:cache\\posts\\towards-abolition.html', (750592, 387)
 'copy_files:output\\FoS-poster-v3.pdf', (751104, 255)
+'copy_files:output\\80000-Hours.pdf', (751616, 257)

@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1524252740.4495122
+_modified_time = 1525942240.440501
 _enable_loop = True
 _template_filename = 'c:/programdata/anaconda3/lib/site-packages/nikola/data/themes/bootstrap3/templates/tags.tmpl'
 _template_uri = 'tags.tmpl'
@@ -30,14 +30,14 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def content():
             return render_content(context._locals(__M_locals))
-        hidden_tags = context.get('hidden_tags', UNDEFINED)
-        cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
-        title = context.get('title', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         items = context.get('items', UNDEFINED)
-        range = context.get('range', UNDEFINED)
+        cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
+        hidden_tags = context.get('hidden_tags', UNDEFINED)
         cat_items = context.get('cat_items', UNDEFINED)
         len = context.get('len', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
+        title = context.get('title', UNDEFINED)
+        range = context.get('range', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
@@ -55,14 +55,14 @@ def render_content(context,**pageargs):
     try:
         def content():
             return render_content(context)
-        hidden_tags = context.get('hidden_tags', UNDEFINED)
-        cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
-        title = context.get('title', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         items = context.get('items', UNDEFINED)
-        range = context.get('range', UNDEFINED)
+        cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
+        hidden_tags = context.get('hidden_tags', UNDEFINED)
         cat_items = context.get('cat_items', UNDEFINED)
         len = context.get('len', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
+        title = context.get('title', UNDEFINED)
+        range = context.get('range', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n<h1>')
         __M_writer(filters.html_escape(str(title)))
