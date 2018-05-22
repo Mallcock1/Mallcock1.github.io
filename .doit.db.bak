@@ -312,3 +312,6 @@
 'copy_files:output\\FoS-poster-v3.pdf', (751104, 255)
 'copy_files:output\\80000-Hours.pdf', (751616, 257)
 'copy_files:output\\FoS-poster-v4.pdf', (752128, 261)
+'render_posts:cache\\posts\\m-hacking-and-bad-science.html', (752640, 412)
+'render_pages:output\\posts\\m-hacking-and-bad-science\\index.html', (753152, 5104)
+'render_sources:output\\posts\\m-hacking-and-bad-science\\index.src.html', (758272, 281)
