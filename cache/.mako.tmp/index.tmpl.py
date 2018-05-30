@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1527708991.168993
+_modified_time = 1527709663.5961425
 _enable_loop = True
 _template_filename = 'c:/programdata/anaconda3/lib/site-packages/nikola/data/themes/base/templates/index.tmpl'
 _template_uri = 'index.tmpl'
@@ -44,33 +44,33 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
-        pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
-        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
-        pagination = _mako_get_namespace(context, 'pagination')
-        author_pages_generated = _import_ns.get('author_pages_generated', context.get('author_pages_generated', UNDEFINED))
-        def content():
-            return render_content(context._locals(__M_locals))
-        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
-        def extra_head():
-            return render_extra_head(context._locals(__M_locals))
-        index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
-        front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
-        math = _mako_get_namespace(context, 'math')
-        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
-        nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
-        current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
-        index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
-        def content_header():
-            return render_content_header(context._locals(__M_locals))
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
-        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
-        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
         prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
+        pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
         comments = _mako_get_namespace(context, 'comments')
         helper = _mako_get_namespace(context, 'helper')
-        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
+        current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
+        def extra_head():
+            return render_extra_head(context._locals(__M_locals))
+        def content():
+            return render_content(context._locals(__M_locals))
+        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
+        author_pages_generated = _import_ns.get('author_pages_generated', context.get('author_pages_generated', UNDEFINED))
+        index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
+        nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
         permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        pagination = _mako_get_namespace(context, 'pagination')
+        front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
+        index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
+        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
+        def content_header():
+            return render_content_header(context._locals(__M_locals))
+        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        math = _mako_get_namespace(context, 'math')
+        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
+        _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
+        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -99,12 +99,12 @@ def render_extra_head(context,**pageargs):
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
         index_file = _import_ns.get('index_file', context.get('index_file', UNDEFINED))
-        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
         math = _mako_get_namespace(context, 'math')
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         def extra_head():
             return render_extra_head(context)
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
+        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(parent.extra_head()))
@@ -126,28 +126,28 @@ def render_content(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'feeds_translations')._populate(_import_ns, ['*'])
+        prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
         pagekind = _import_ns.get('pagekind', context.get('pagekind', UNDEFINED))
-        pagination = _mako_get_namespace(context, 'pagination')
-        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
-        author_pages_generated = _import_ns.get('author_pages_generated', context.get('author_pages_generated', UNDEFINED))
+        comments = _mako_get_namespace(context, 'comments')
+        helper = _mako_get_namespace(context, 'helper')
+        current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
         def content():
             return render_content(context)
-        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
+        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
+        author_pages_generated = _import_ns.get('author_pages_generated', context.get('author_pages_generated', UNDEFINED))
         index_teasers = _import_ns.get('index_teasers', context.get('index_teasers', UNDEFINED))
-        front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
-        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
-        math = _mako_get_namespace(context, 'math')
         nextlink = _import_ns.get('nextlink', context.get('nextlink', UNDEFINED))
-        current_page = _import_ns.get('current_page', context.get('current_page', UNDEFINED))
+        front_index_header = _import_ns.get('front_index_header', context.get('front_index_header', UNDEFINED))
+        pagination = _mako_get_namespace(context, 'pagination')
+        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
         def content_header():
             return render_content_header(context)
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        posts = _import_ns.get('posts', context.get('posts', UNDEFINED))
+        math = _mako_get_namespace(context, 'math')
+        page_links = _import_ns.get('page_links', context.get('page_links', UNDEFINED))
         _link = _import_ns.get('_link', context.get('_link', UNDEFINED))
-        prevlink = _import_ns.get('prevlink', context.get('prevlink', UNDEFINED))
-        date_format = _import_ns.get('date_format', context.get('date_format', UNDEFINED))
-        helper = _mako_get_namespace(context, 'helper')
-        feeds_translations = _mako_get_namespace(context, 'feeds_translations')
-        comments = _mako_get_namespace(context, 'comments')
+        prev_next_links_reversed = _import_ns.get('prev_next_links_reversed', context.get('prev_next_links_reversed', UNDEFINED))
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content_header'):
