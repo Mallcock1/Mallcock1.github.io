@@ -1,0 +1,154 @@
+## -*- coding: utf-8 -*-
+<%inherit file="story.tmpl"/>
+
+<%block name="extra_head">
+    ${parent.extra_head()}
+    <style>
+
+/*Header Page Background*/
+body, html {
+  background: url("/lake_district.jpg");
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-attachment: scroll;
+}
+
+
+.cover{
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-height: 350px;
+    background: url("/lake_district.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+
+
+header.title {
+  background-image: url("/lake_district.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 50vh;
+  width: 150vh;
+}
+
+.btn-xl {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: 'Raleway', sans-serif;  
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+#overview {
+  position: relative;
+  background-color: #fff;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: fixed;
+  display:block
+}
+
+header .intro-text .intro-lead-in {
+  font-family: 'Raleway', sans-serif;  
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+header .intro-text .intro-heading {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  color: #fed136;
+}
+
+@media (min-width: 768px){
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: 'Raleway', sans-serif;    
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    letter-spacing: 12px;
+  }
+}
+
+/*************************/
+			/*OVERVIEW/*
+/*************************/
+#overview {
+  z-index: 1000; 
+}
+.fa-stack {
+  transition: transform 0.5s;
+}
+
+.fa-stack:hover {
+  transform: scale(1.20);
+  cursor: pointer;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.thumbnail{
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+
+    </style>
+</%block>
