@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2018-06-03T13:02:00Z</lastmod>
+  <lastmod>2018-08-05T17:15:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -87,7 +87,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/index-1.html</loc>
-  <lastmod>2018-06-15T15:24:00Z</lastmod>
+  <lastmod>2018-08-05T17:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_research/</loc>
@@ -411,11 +411,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2018-05-22T20:56:00Z</lastmod>
+  <lastmod>2018-08-05T17:23:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -442,16 +442,24 @@
   <lastmod>2017-12-08T22:21:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/posts/giving-with-humility/</loc>
+  <lastmod>2018-08-05T17:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/givng-with-humility/</loc>
+  <lastmod>2018-08-05T17:15:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/posts/index-1.html</loc>
   <lastmod>2018-06-15T15:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/m-hacking-and-bad-science/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -483,11 +491,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-way-we-help-the-poor-is-fundamentally-flawed/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/towards-abolition/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -511,10 +519,10 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test2/</loc>
-  <lastmod>2018-07-11T13:10:00Z</lastmod>
+  <lastmod>2018-07-11T15:16:00Z</lastmod>
  </url>
 </urlset>
