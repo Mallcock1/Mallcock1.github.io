@@ -207,7 +207,7 @@
 'render_taxonomies:output\\categories\\programming\\index.html', (331264, 2025)
 'copy_assets:output\\assets\\css\\theme.css', (333312, 419)
 'render_taxonomies:output\\categories\\tractability\\index.html', (333824, 1993)
-'render_pages:output\\contact\\index.html', (335872, 4720)
+'render_pages:output\\contact\\index.html', (335872, 4721)
 'render_taxonomies', (340992, 56)
 'render_pages:output\\posts\\welcome\\index.html', (341504, 5014)
 'render_taxonomies:output\\categories\\donating\\index.html', (346624, 1963)
