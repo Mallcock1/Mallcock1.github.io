@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
 import time
@@ -444,31 +444,46 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # the posts themselves. If set to False, it will be just a list of links.
 CATEGORY_PAGES_ARE_INDEXES = True
 
-MAILCHIMP_SIGNUP = '''
-<!-- Begin MailChimp Signup Form -->
-    <div id="mc_embed_signup">
-        <form action="//matthewallcock.us16.list-manage.com/subscribe/post?u=1e8fd8b8caabf27414f497afc&amp;id=09933a9388" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-            <h4><label for="mce-EMAIL">Subscribe for updates</label></h4>
-                <div class="mc-field-group">
-                    <input type="text" value="" style="display: inline;" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your email">
-                    &nbsp;
-                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1e8fd8b8caabf27414f497afc_09933a9388" tabindex="-1" value="">
-                </div>
-            </div>
-        </form>
-    </div>
-<!--End mc_embed_signup-->
-'''
+# Uncomment below  to include subscribe for updates.
+#
+#MAILCHIMP_SIGNUP = '''
+#<!-- Begin MailChimp Signup Form -->
+#    <div id="mc_embed_signup">
+#        <form action="//matthewallcock.us16.list-manage.com/subscribe/post?u=1e8fd8b8caabf27414f497afc&amp;id=09933a9388" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
+#            <div id="mc_embed_signup_scroll">
+#            <h4><label for="mce-EMAIL">Subscribe for updates</label></h4>
+#                <div class="mc-field-group">
+#                    <input type="text" value="" style="display: inline;" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter your email">
+#                    &nbsp;
+#                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+#                </div>
+#                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+#                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1e8fd8b8caabf27414f497afc_09933a9388" tabindex="-1" value="">
+#                </div>
+#            </div>
+#        </form>
+#    </div>
+#<!--End mc_embed_signup-->
+#'''
+#
+#DESCRIPTION_FOR_SUB = '''
+#<hr>
+#<p>Time is precious! Save it by subscribing below for email updates.
+#</p>
+#'''
+#
+#And add this to below
+#'''
+#       <p>Updates as I meander through my PhD, trying to understand 
+#       waves on the Sun. A summary of my research can be found <a href="/research">here</a>.
+#       </p>
+#       ''' + DESCRIPTION_FOR_SUB + '''
+#       <center>
+#       ''' + MAILCHIMP_SIGNUP + '''
+#       </center>
+#       <hr>
+#       '''
 
-DESCRIPTION_FOR_SUB = '''
-<hr>
-<p>Time is precious! Save it by subscribing below for email updates.
-</p>
-'''
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
@@ -479,10 +494,6 @@ CATEGORY_PAGES_DESCRIPTIONS = {
        <p>Updates as I meander through my PhD, trying to understand 
        waves on the Sun. A summary of my research can be found <a href="/research">here</a>.
        </p>
-       ''' + DESCRIPTION_FOR_SUB + '''
-       <center>
-       ''' + MAILCHIMP_SIGNUP + '''
-       </center>
        <hr>
        ''',
 
@@ -491,25 +502,14 @@ CATEGORY_PAGES_DESCRIPTIONS = {
        This way of thinking is known as <a href="/posts/effective-altruism">effective altruism</a>.
        </p>
        <p>
-       I write here about my thoughts about the most effective ways to improve the world - including reducing global poverty and animal suffering, and trying to encourage a utopian future.
+       I write here about my thoughts about the most effective ways to improve the world - which to me means something like moving towards a flourishing future for all sentient beings.
        </p>
-       <p>
-       We each have the power to help. Let's do it!
-       </p>
-       ''' + DESCRIPTION_FOR_SUB + '''
-       <center>
-       ''' + MAILCHIMP_SIGNUP + '''
-       </center>
        <hr>
        ''',
        
        "other": '''
        <p>Other ideas that find their way from my mind to the page.
        </p>
-       ''' + DESCRIPTION_FOR_SUB + '''
-       <center>
-       ''' + MAILCHIMP_SIGNUP + '''
-       </center>
        <hr>
        ''',
    },
@@ -941,9 +941,6 @@ LICENSE = ""
 # (translatable)
 CONTENT_FOOTER = '''
 <center>
-''' + MAILCHIMP_SIGNUP + '''
-<br>
-
 Contents &copy; {date} <a href="mailto:{email}">{author}</a>
 - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>{license}
 </center>
