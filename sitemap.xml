@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2019-04-27T08:39:00Z</lastmod>
+  <lastmod>2019-04-29T17:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T17:06:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
@@ -87,7 +87,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/index-1.html</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T17:06:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_research/</loc>
@@ -423,7 +423,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2017-11-02T18:27:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/galleries/</loc>
@@ -471,15 +471,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/index-1.html</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T17:06:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2017-11-02T18:27:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/m-hacking-and-bad-science/</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -515,11 +515,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-way-we-help-the-poor-is-fundamentally-flawed/</loc>
-  <lastmod>2017-11-02T18:27:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/towards-abolition/</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -543,14 +543,18 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test/</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test2/</loc>
-  <lastmod>2019-04-27T08:02:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test3/</loc>
-  <lastmod>2019-04-27T08:39:00Z</lastmod>
+  <lastmod>2019-04-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/test_js/</loc>
+  <lastmod>2019-04-29T17:34:00Z</lastmod>
  </url>
 </urlset>
