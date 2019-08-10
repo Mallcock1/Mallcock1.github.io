@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2019-07-17T13:53:00Z</lastmod>
+  <lastmod>2019-08-10T18:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -23,11 +23,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2019-07-17T13:53:00Z</lastmod>
+  <lastmod>2019-08-10T18:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2019-07-17T12:47:00Z</lastmod>
+  <lastmod>2019-08-10T18:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
@@ -91,7 +91,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/index-1.html</loc>
-  <lastmod>2019-07-17T12:53:00Z</lastmod>
+  <lastmod>2019-08-10T18:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_research/</loc>
@@ -108,6 +108,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/donating/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/donation/</loc>
+  <lastmod>2019-08-10T18:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/donations/</loc>
@@ -148,6 +152,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/github/</loc>
   <lastmod>2019-07-17T12:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/givedirectly/</loc>
+  <lastmod>2019-08-10T18:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/givewell/</loc>
@@ -427,7 +435,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
@@ -463,15 +471,15 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/index-1.html</loc>
-  <lastmod>2019-07-17T13:53:00Z</lastmod>
+  <lastmod>2019-08-10T18:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/m-hacking-and-bad-science/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -480,10 +488,6 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/new-publication-I-do-some-observations/</loc>
   <lastmod>2019-07-17T14:26:00Z</lastmod>
- </url>
- <url>
-  <loc>http://www.matthewallcock.co.uk/posts/new-publication-matt-does-some-observations/</loc>
-  <lastmod>2019-07-17T13:53:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/new-publication-sunny-wave-guessing-with-funny-waves-in-funny-shapes/</loc>
@@ -511,11 +515,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/the-way-we-help-the-poor-is-fundamentally-flawed/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/towards-abolition/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -539,18 +543,18 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test2/</loc>
-  <lastmod>2019-07-17T12:21:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test3/</loc>
-  <lastmod>2019-07-17T12:54:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test_js/</loc>
-  <lastmod>2019-07-17T12:54:00Z</lastmod>
+  <lastmod>2019-08-10T16:43:00Z</lastmod>
  </url>
 </urlset>
