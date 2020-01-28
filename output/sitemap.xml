@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2019-01-28T21:04:00Z</lastmod>
+  <lastmod>2020-01-28T11:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -22,8 +22,12 @@
   <lastmod>2019-07-17T13:53:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/2020/</loc>
+  <lastmod>2020-01-28T11:28:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2019-08-10T18:24:00Z</lastmod>
+  <lastmod>2020-01-28T12:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
@@ -91,7 +95,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/index-1.html</loc>
-  <lastmod>2019-08-10T18:24:00Z</lastmod>
+  <lastmod>2020-01-28T11:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_research/</loc>
@@ -435,11 +439,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:33:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2018-09-01T19:50:00Z</lastmod>
+  <lastmod>2020-01-28T11:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -462,6 +466,10 @@
   <lastmod>2017-12-08T22:21:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/posts/exploring-the-explore-exploit-trade-off/</loc>
+  <lastmod>2020-01-28T11:28:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/posts/giving-what-i-can/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
  </url>
@@ -471,15 +479,19 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/index-1.html</loc>
-  <lastmod>2019-08-10T18:24:00Z</lastmod>
+  <lastmod>2020-01-28T12:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/index-2.html</loc>
+  <lastmod>2020-01-28T11:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:33:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/m-hacking-and-bad-science/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -519,7 +531,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/towards-abolition/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -543,18 +555,18 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test2/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test3/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:32:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test_js/</loc>
-  <lastmod>2019-08-27T08:34:00Z</lastmod>
+  <lastmod>2019-11-02T10:32:00Z</lastmod>
  </url>
 </urlset>

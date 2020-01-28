@@ -151,10 +151,10 @@ NAVIGATION_LINKS = {
                 ("/categories/cat_philosophy", "Matt thinks"),
                 ("/categories/cat_other", "Bits 'n' bobs"),
                 ("/posts/", "All"),
-                ("/archive.html", "Archive"),
+                ("/archive.html", "By year"),
 #                ("/rss.xml", "RSS feed"),
             ),
-            "Blog"
+            "Writing"
         ),
         ("/contact/", "Contact"),
     ),
