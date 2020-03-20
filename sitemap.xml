@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.matthewallcock.co.uk/</loc>
-  <lastmod>2020-01-31T17:48:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/2017/</loc>
@@ -22,12 +22,16 @@
   <lastmod>2019-07-17T13:53:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.matthewallcock.co.uk/2020/</loc>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.matthewallcock.co.uk/archive.html</loc>
-  <lastmod>2020-01-28T12:11:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/</loc>
-  <lastmod>2018-09-01T19:50:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/3rs/</loc>
@@ -91,7 +95,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_philosophy/index-1.html</loc>
-  <lastmod>2020-01-28T11:05:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/cat_research/</loc>
@@ -104,6 +108,18 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/charity/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/corona-virus/</loc>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/data-science/</loc>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/categories/data/</loc>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/categories/donating/</loc>
@@ -435,11 +451,11 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/effective-altruism/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/</loc>
-  <lastmod>2020-01-28T12:24:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/3-rs-to-reduce-animal-suffering/</loc>
@@ -452,6 +468,10 @@
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/buying-an-expensive-car-to-feed-the-world/</loc>
   <lastmod>2017-12-08T22:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/corona-virus-data-analysis-of-a-pandemic/</loc>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/creating-a-website-using-nikola/</loc>
@@ -475,15 +495,19 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/index-1.html</loc>
-  <lastmod>2020-01-28T12:11:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.matthewallcock.co.uk/posts/index-2.html</loc>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/long-term-thinking/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/m-hacking-and-bad-science/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/mhd-waves-in-an-asymmetric-magnetic-slab/</loc>
@@ -523,7 +547,7 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/towards-abolition/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/posts/welcome/</loc>
@@ -547,18 +571,18 @@
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test2/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test3/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.matthewallcock.co.uk/test_js/</loc>
-  <lastmod>2020-02-03T13:00:00Z</lastmod>
+  <lastmod>2020-03-20T10:21:00Z</lastmod>
  </url>
 </urlset>

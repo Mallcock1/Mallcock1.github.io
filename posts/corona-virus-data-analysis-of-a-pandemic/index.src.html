@@ -1,0 +1,162 @@
+<!--
+.. title: Corona virus: data analysis of a pandemic
+.. slug: corona-virus-data-analysis-of-a-pandemic
+.. date: 2020-03-19 22:34:13 UTC
+.. tags: data, data science, corona virus
+.. category: philosophy
+.. link: 
+.. description: 
+.. type: text
+.. author: Matthew Allcock
+.. previewimage: /coronavirus.jpg
+-->
+
+<p>
+<a href="https://coronavirustechhandbook.com/home">Lots of data</a> about the current corona virus outbreak are freely available for anyone to analyse. Here's my attempt to give a snap-shot of what we are facing and what we might expect in the future, purely based on the data we have available.
+</p>
+
+<!-- TEASER_END -->
+
+<p>
+There are over 200,000 confirmed cases of Covid-19 globally. But these cases are not distributed evenly around the world. They are clustered in the worst-hit countries (click to enlarge):
+<figure>
+<center>
+<a class="image-reference" href="/bar.png">
+<img class="img-responsive" src="/bar.png" alt="Bar" style="width:900px;">
+</a>
+</center>
+</figure>
+</p>
+
+<p>
+Due to the skewness of the data, it's more instructive to plot the data on a log scale. Double the height of a bar corresponds to 10 times the number of cases:
+<figure>
+<center>
+<a class="image-reference" href="/bar_log.png">
+<img class="img-responsive" src="/bar_log.png" alt="Bar log" style="width:900px;">
+</a>
+</center>
+</figure>
+</p>
+
+<p>
+Here is where the cases are geographically:
+<figure>
+<center>
+<a class="image-reference" href="/map_image.png">
+<img class="img-responsive" src="/map_image.png" alt="map" style="width:900px;">
+</a>
+</center>
+</figure>
+There are clearly clusters of outbreaks in China, European countries, Iran, and, to a lesser extent, the US, with much smaller numbers of cases in, for example, Australia and African and South American countries. My worry is what will happen if the illness spreads to countries that are less prepared to deal with hundreds of thousands of people needing medical care.
+</p>
+
+<p>
+What is most remarkable about communicable diseases is how illness rates change through time. This video shows how the number of confirmed cases in each country has evolved since 22nd January 2020.
+<figure>
+<center>
+<a class="image-reference" href="/map_animation.gif">
+<img class="img-responsive" src="/map_animation.gif" alt="map animation" style="width:900px;">
+</a>
+</center>
+</figure>
+Whilst China and a few other countries have dramatically reduced the growth-rate of cases, other countries like the UK and the US are yet to experience peak growth-rates. It's harrowing to see substantial numbers of cases in less economically prepared countries in South America and Africa.
+</p>
+
+<h2>Modelling growth-rates</h2>
+
+<p>
+The number of cases when an infectious disease spreading in a uniform population will follow a <a href="https://en.wikipedia.org/wiki/Logistic_function">logistic curve</a>. This is an s-shaped curve that starts low, increases exponentially until it reaches it's maximum growth-rate, before capacity limitations cause the growth-rate to decrease so that the number of infections reaches a steady-state. This is approximately what we see in China's Covid-19 illness rates:
+<figure>
+<center>
+<a class="image-reference" href="/ts_China_31920.png">
+<img class="img-responsive" src="/ts_China_31920.png" alt="Time series China" style="width:600px;">
+</a>
+</center>
+</figure>
+We can fit a logistic function to the number of confirmed cases to get a well-fit model:
+<figure>
+<center>
+<a class="image-reference" href="/ts_China_31920_l.png">
+<img class="img-responsive" src="/ts_China_31920_l.png" alt="Time series China logistic" style="width:600px;">
+</a>
+</center>
+</figure>
+</p>
+
+<p>
+The evolution of global rates of this illness show an interesting growth curve that is different to the standard logistic curve:
+<figure>
+<center>
+<a class="image-reference" href="/ts_global.png">
+<img class="img-responsive" src="/ts_global.png" alt="Time series global" style="width:600px;">
+</a>
+</center>
+</figure>
+Instead of one s-shape, there are two. This occurs when there are several weakly coupled populations so that the rapid growth in one sub-population initiates a second growth in the other sub-population. The first sub-population in this case is China, and the second sub-population is some of the rest of the world. Perhaps we will see a third s-shape if Africa and South America experience rapid growth as growth in Europe and the US subsides.
+</p>
+
+<p>
+One model we can fit to a growth-rate with two s-shapes is the <a href="https://www.tandfonline.com/doi/abs/10.1080/02664760903093633">double logistic function</a>. This is basically a function made up of two temporally separated logistic functions. Fitting the double logistic function to the global Covid-19 cases gives a pretty good fit:
+<figure>
+<center>
+<a class="image-reference" href="/ts_global_dl.png">
+<img class="img-responsive" src="/ts_global_dl.png" alt="Time series global double logistic" style="width:600px;">
+</a>
+</center>
+</figure>
+</p>
+
+<p>
+We can then extrapolate the curve to predict the evolution of the illness in the future:
+<figure>
+<center>
+<a class="image-reference" href="/ts_global_dl_extra.png">
+<img class="img-responsive" src="/ts_global_dl_extra.png" alt="Time series global double logistic prediction" style="width:600px;">
+</a>
+</center>
+</figure>
+This predicts a maximum of around 800,000 cases by mid April. This seems like a good lower bound on the number of cases. The true number will be significantly higher because this prediction is made on only the confirmed cases. Additionally, this model does not take into account the possibility of a third s-shape, which seems quite likely given the difficulty of stopping the spread in the Africa and South America. It is sobering to think just how high these numbers could go.
+</p>
+
+<p>
+Bringing the focus closer to home, the UK is currently in a period of rapid growth in the number of cases:
+<figure>
+<center>
+<a class="image-reference" href="/ts_United Kingdom_3_18_20.png">
+<img class="img-responsive" src="/ts_United Kingdom_3_18_20.png" alt="Time series UK" style="width:600px;">
+</a>
+</center>
+</figure>
+Compared to the global population, he UK is approximately uniformly populated so a simple logistic function is a suitable model of the growth-rate:
+<figure>
+<center>
+<a class="image-reference" href="/ts_United Kingdom_31820_l.png">
+<img class="img-responsive" src="/ts_United Kingdom_31820_l.png" alt="Time series UK logistic" style="width:600px;">
+</a>
+</center>
+</figure>
+We can then use this model to extrapolate to predict the future evolution of Covid-19 in the UK:
+<figure>
+<center>
+<a class="image-reference" href="/ts_United Kingdom_31820_l_extra.png">
+<img class="img-responsive" src="/ts_United Kingdom_31820_l_extra.png" alt="Time series UK prediction" style="width:600px;">
+</a>
+</center>
+</figure>
+This predicts that we have not yet reached the maximum growth-rate. A maximum of around 10,000 cases are predicted in the UK by mid-April.
+
+Again, the actual number of cases will be substantially higher due to the fact that we are extrapolating from confirmed cases. The true number of cases of this global pandemic will be strongly dependant on the actions of governments and individuals to mitigate the spread.
+</p>
+
+<p>
+The data used in this post are only the confirmed cases. Of course, there will be many times more cases out there who have not been confirmed. Some countries are testing their citizens thoroughly, while others are hardly testing at all. This gives a bias in these data towards those countries who are testing more.
+</p>
+
+<p>
+Regardless, I hope this post gives you an idea of the fight we are up against. Possibly the toughest fight of our generation.
+</p>
+
+<p>
+Feel free to share any of these images and videos, with a link to this article.
+</p>

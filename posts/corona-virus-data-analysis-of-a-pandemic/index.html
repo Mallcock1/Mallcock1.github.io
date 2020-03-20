@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corona virus: data analysis of a pandemic | Matthew Allcock</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#d4d456">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="canonical" href="http://www.matthewallcock.co.uk/posts/corona-virus-data-analysis-of-a-pandemic/">
+<link rel="icon" href="../../LetterM.png" sizes="16x16">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Matthew Allcock">
+<link rel="prev" href="../the-way-we-help-the-poor-is-fundamentally-flawed/" title="The way we help the poor is fundamentally flawed" type="text/html">
+<meta property="og:site_name" content="Matthew Allcock">
+<meta property="og:title" content="Corona virus: data analysis of a pandemic">
+<meta property="og:url" content="http://www.matthewallcock.co.uk/posts/corona-virus-data-analysis-of-a-pandemic/">
+<meta property="og:description" content="Lots of data about the current corona virus outbreak are freely available for anyone to analyse. Here's my attempt to give a snap-shot of what we are facing and what we might expect in the future, pur">
+<meta property="og:image" content="http://www.matthewallcock.co.uk/coronavirus.jpg">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-03-19T22:34:13Z">
+<meta property="article:tag" content="corona virus">
+<meta property="article:tag" content="data">
+<meta property="article:tag" content="data science">
+<meta name="twitter:card" content="summary_Large_image">
+<meta name="twitter:creator" content="@matthew_allcock">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.matthewallcock.co.uk/">
+
+                <span id="blog-title">Matthew Allcock</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+<li>
+<a href="../../research/">Summary</a>
+                    </li>
+<li>
+<a href="../../research/#publications">Publications</a>
+                    </li>
+<li>
+<a href="../../research/#conferences">Conferences</a>
+                    </li>
+<li>
+<a href="../../research/#outreach">Outreach</a>
+                    </li>
+<li>
+<a href="../../research/#teaching">Teaching</a>
+            </li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Writing <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+<li>
+<a href="../../categories/cat_research">Matt does</a>
+                    </li>
+<li>
+<a href="../../categories/cat_philosophy">Matt thinks</a>
+                    </li>
+<li>
+<a href="../../categories/cat_other">Bits 'n' bobs</a>
+                    </li>
+<li>
+<a href="../">All</a>
+                    </li>
+<li>
+<a href="../../archive.html">By year</a>
+            </li>
+</ul>
+</li>
+<li>
+<a href="../../contact/">Contact</a>
+
+                
+            </li>
+</ul>
+<!-- Google custom search --><form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+<div class="form-group">
+<input type="text" name="q" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-primary">
+	<span class="glyphicon glyphicon-search"></span>
+</button>
+<input type="hidden" name="sitesearch" value="http://www.matthewallcock.co.uk/">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Corona virus: data analysis of a pandemic</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                    Matthew Allcock
+            </span></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2020-03-19T22:34:13Z" itemprop="datePublished" title="19-03-2020">19-03-2020</time></a></p>
+                <p class="commentline">
+        
+    <a href="#disqus_thread" data-disqus-identifier="cache/posts/corona-virus-data-analysis-of-a-pandemic.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>
+<a href="https://coronavirustechhandbook.com/home">Lots of data</a> about the current corona virus outbreak are freely available for anyone to analyse. Here's my attempt to give a snap-shot of what we are facing and what we might expect in the future, purely based on the data we have available.
+</p>
+
+<!-- TEASER_END -->
+
+<p>
+There are over 200,000 confirmed cases of Covid-19 globally. But these cases are not distributed evenly around the world. They are clustered in the worst-hit countries (click to enlarge):
+<figure><center>
+<a class="image-reference" href="../../bar.png">
+<img class="img-responsive" src="../../bar.png" alt="Bar" style="width:900px;"></a>
+</center>
+</figure></p>
+
+<p>
+Due to the skewness of the data, it's more instructive to plot the data on a log scale. Double the height of a bar corresponds to 10 times the number of cases:
+<figure><center>
+<a class="image-reference" href="../../bar_log.png">
+<img class="img-responsive" src="../../bar_log.png" alt="Bar log" style="width:900px;"></a>
+</center>
+</figure></p>
+
+<p>
+Here is where the cases are geographically:
+<figure><center>
+<a class="image-reference" href="../../map_image.png">
+<img class="img-responsive" src="../../map_image.png" alt="map" style="width:900px;"></a>
+</center>
+</figure>
+There are clearly clusters of outbreaks in China, European countries, Iran, and, to a lesser extent, the US, with much smaller numbers of cases in, for example, Australia and African and South American countries. My worry is what will happen if the illness spreads to countries that are less prepared to deal with hundreds of thousands of people needing medical care.
+</p>
+
+<p>
+What is most remarkable about communicable diseases is how illness rates change through time. This video shows how the number of confirmed cases in each country has evolved since 22nd January 2020.
+<figure><center>
+<a class="image-reference" href="../../map_animation.gif">
+<img class="img-responsive" src="../../map_animation.gif" alt="map animation" style="width:900px;"></a>
+</center>
+</figure>
+Whilst China and a few other countries have dramatically reduced the growth-rate of cases, other countries like the UK and the US are yet to experience peak growth-rates. It's harrowing to see substantial numbers of cases in less economically prepared countries in South America and Africa.
+</p>
+
+<h2>Modelling growth-rates</h2>
+
+<p>
+The number of cases when an infectious disease spreading in a uniform population will follow a <a href="https://en.wikipedia.org/wiki/Logistic_function">logistic curve</a>. This is an s-shaped curve that starts low, increases exponentially until it reaches it's maximum growth-rate, before capacity limitations cause the growth-rate to decrease so that the number of infections reaches a steady-state. This is approximately what we see in China's Covid-19 illness rates:
+<figure><center>
+<a class="image-reference" href="../../ts_China_31920.png">
+<img class="img-responsive" src="../../ts_China_31920.png" alt="Time series China" style="width:600px;"></a>
+</center>
+</figure>
+We can fit a logistic function to the number of confirmed cases to get a well-fit model:
+<figure><center>
+<a class="image-reference" href="../../ts_China_31920_l.png">
+<img class="img-responsive" src="../../ts_China_31920_l.png" alt="Time series China logistic" style="width:600px;"></a>
+</center>
+</figure></p>
+
+<p>
+The evolution of global rates of this illness show an interesting growth curve that is different to the standard logistic curve:
+<figure><center>
+<a class="image-reference" href="../../ts_global.png">
+<img class="img-responsive" src="../../ts_global.png" alt="Time series global" style="width:600px;"></a>
+</center>
+</figure>
+Instead of one s-shape, there are two. This occurs when there are several weakly coupled populations so that the rapid growth in one sub-population initiates a second growth in the other sub-population. The first sub-population in this case is China, and the second sub-population is some of the rest of the world. Perhaps we will see a third s-shape if Africa and South America experience rapid growth as growth in Europe and the US subsides.
+</p>
+
+<p>
+One model we can fit to a growth-rate with two s-shapes is the <a href="https://www.tandfonline.com/doi/abs/10.1080/02664760903093633">double logistic function</a>. This is basically a function made up of two temporally separated logistic functions. Fitting the double logistic function to the global Covid-19 cases gives a pretty good fit:
+<figure><center>
+<a class="image-reference" href="../../ts_global_dl.png">
+<img class="img-responsive" src="../../ts_global_dl.png" alt="Time series global double logistic" style="width:600px;"></a>
+</center>
+</figure></p>
+
+<p>
+We can then extrapolate the curve to predict the evolution of the illness in the future:
+<figure><center>
+<a class="image-reference" href="../../ts_global_dl_extra.png">
+<img class="img-responsive" src="../../ts_global_dl_extra.png" alt="Time series global double logistic prediction" style="width:600px;"></a>
+</center>
+</figure>
+This predicts a maximum of around 800,000 cases by mid April. This seems like a good lower bound on the number of cases. The true number will be significantly higher because this prediction is made on only the confirmed cases. Additionally, this model does not take into account the possibility of a third s-shape, which seems quite likely given the difficulty of stopping the spread in the Africa and South America. It is sobering to think just how high these numbers could go.
+</p>
+
+<p>
+Bringing the focus closer to home, the UK is currently in a period of rapid growth in the number of cases:
+<figure><center>
+<a class="image-reference" href="../../ts_United%20Kingdom_3_18_20.png">
+<img class="img-responsive" src="../../ts_United%20Kingdom_3_18_20.png" alt="Time series UK" style="width:600px;"></a>
+</center>
+</figure>
+Compared to the global population, he UK is approximately uniformly populated so a simple logistic function is a suitable model of the growth-rate:
+<figure><center>
+<a class="image-reference" href="../../ts_United%20Kingdom_31820_l.png">
+<img class="img-responsive" src="../../ts_United%20Kingdom_31820_l.png" alt="Time series UK logistic" style="width:600px;"></a>
+</center>
+</figure>
+We can then use this model to extrapolate to predict the future evolution of Covid-19 in the UK:
+<figure><center>
+<a class="image-reference" href="../../ts_United%20Kingdom_31820_l_extra.png">
+<img class="img-responsive" src="../../ts_United%20Kingdom_31820_l_extra.png" alt="Time series UK prediction" style="width:600px;"></a>
+</center>
+</figure>
+This predicts that we have not yet reached the maximum growth-rate. A maximum of around 10,000 cases are predicted in the UK by mid-April.
+
+Again, the actual number of cases will be substantially higher due to the fact that we are extrapolating from confirmed cases. The true number of cases of this global pandemic will be strongly dependant on the actions of governments and individuals to mitigate the spread.
+</p>
+
+<p>
+The data used in this post are only the confirmed cases. Of course, there will be many times more cases out there who have not been confirmed. Some countries are testing their citizens thoroughly, while others are hardly testing at all. This gives a bias in these data towards those countries who are testing more.
+</p>
+
+<p>
+Regardless, I hope this post gives you an idea of the fight we are up against. Possibly the toughest fight of our generation.
+</p>
+
+<p>
+Feel free to share any of these images and videos, with a link to this article.
+</p>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/corona-virus/" rel="tag">corona virus</a></li>
+            <li><a class="tag p-category" href="../../categories/data/" rel="tag">data</a></li>
+            <li><a class="tag p-category" href="../../categories/data-science/" rel="tag">data science</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../the-way-we-help-the-poor-is-fundamentally-flawed/" rel="prev" title="The way we help the poor is fundamentally flawed">Previous post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="m-allcock-website",
+            disqus_url="http://www.matthewallcock.co.uk/posts/corona-virus-data-analysis-of-a-pandemic/",
+        disqus_title="Corona virus: data analysis of a pandemic",
+        disqus_identifier="cache/posts/corona-virus-data-analysis-of-a-pandemic.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="m-allcock-website";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer"><center>
+Contents © 2020 <a href="mailto:mallcock1@sheffield.ac.uk">Matthew Allcock</a>
+- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>
+</center>
+<br></footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-594527444c616ad8"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(2, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90105626-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
